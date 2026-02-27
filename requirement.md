@@ -1,0 +1,13 @@
+matplotlib == 3.10.1
+matplotlib-inline == 0.1.7
+neo4j == 5.28.1
+numpy == 2.0.1
+ollama == 0.4.4
+openai == 1.73.0
+pydantic == 2.10.3
+pydantic_core == 2.27.1
+python-igraph == 0.11.8
+python-louvain == 0.16
+python-slugify == 8.0.4
+tiktoken == 0.11.0
+typing_extensions == 4.12.2

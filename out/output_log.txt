@@ -1,0 +1,1030 @@
+summary\model\models.py
+summary\reposummary.py
+importing the module summary\utils\file_operations.py now analyzing this module
+module summary\utils\file_operations.py finished
+importing the module summary\utils\file_clustering.py now analyzing this module
+module summary\utils\file_clustering.py finished
+importing the module summary\utils\function_clustering.py now analyzing this module
+module summary\utils\function_clustering.py finished
+importing the module summary\utils\feature_generation.py now analyzing this module
+module summary\utils\feature_generation.py finished
+importing the module summary\utils\method_summary.py now analyzing this module
+module summary\utils\method_summary.py finished
+summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_expr.py
+importing the module summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_manager.py now analyzing this module
+importing the module summary\structure_analsis\python\ENRE_py\enre\analysis\env.py now analyzing this module
+importing the module summary\structure_analsis\python\ENRE_py\enre\cfg\module_tree.py now analyzing this module
+importing the module summary\structure_analsis\python\ENRE_py\enre\cfg\HeapObject.py now analyzing this module
+importing the module summary\structure_analsis\python\ENRE_py\enre\ent\entity.py now analyzing this module
+importing the module summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_method.py now analyzing this module
+module summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_method.py finished
+importing the module summary\structure_analsis\python\ENRE_py\enre\analysis\value_info.py now analyzing this module
+module summary\structure_analsis\python\ENRE_py\enre\analysis\value_info.py finished
+importing the module summary\structure_analsis\python\ENRE_py\enre\ent\EntKind.py now analyzing this module
+module summary\structure_analsis\python\ENRE_py\enre\ent\EntKind.py finished
+importing the module summary\structure_analsis\python\ENRE_py\enre\ref\Ref.py now analyzing this module
+module summary\structure_analsis\python\ENRE_py\enre\ref\Ref.py finished
+module summary\structure_analsis\python\ENRE_py\enre\ent\entity.py finished
+module summary\structure_analsis\python\ENRE_py\enre\cfg\HeapObject.py finished
+module summary\structure_analsis\python\ENRE_py\enre\cfg\module_tree.py finished
+module summary\structure_analsis\python\ENRE_py\enre\analysis\env.py finished
+importing the module summary\structure_analsis\python\ENRE_py\enre\dep\DepDB.py now analyzing this module
+module summary\structure_analsis\python\ENRE_py\enre\dep\DepDB.py finished
+importing the module summary\structure_analsis\python\ENRE_py\enre\passes\entity_pass.py now analyzing this module
+module summary\structure_analsis\python\ENRE_py\enre\passes\entity_pass.py finished
+importing the module summary\structure_analsis\python\ENRE_py\enre\passes\build_ambiguous.py now analyzing this module
+module summary\structure_analsis\python\ENRE_py\enre\passes\build_ambiguous.py finished
+importing the module summary\structure_analsis\python\ENRE_py\enre\passes\build_visibility.py now analyzing this module
+module summary\structure_analsis\python\ENRE_py\enre\passes\build_visibility.py finished
+importing the module summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_stmt.py now analyzing this module
+importing the module summary\structure_analsis\python\ENRE_py\enre\analysis\assign_target.py now analyzing this module
+module summary\structure_analsis\python\ENRE_py\enre\analysis\assign_target.py finished
+importing the module summary\structure_analsis\python\ENRE_py\enre\ent\ent_finder.py now analyzing this module
+module summary\structure_analsis\python\ENRE_py\enre\ent\ent_finder.py finished
+importing the module summary\structure_analsis\python\ENRE_py\enre\analysis\error_handler.py now analyzing this module
+module summary\structure_analsis\python\ENRE_py\enre\analysis\error_handler.py finished
+module summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_stmt.py finished
+module summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_manager.py finished
+summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_manager.py
+the module summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_manager.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_method.py
+the module summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_method.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_stmt.py
+the module summary\structure_analsis\python\ENRE_py\enre\analysis\analyze_stmt.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\analysis\assign_target.py
+the module summary\structure_analsis\python\ENRE_py\enre\analysis\assign_target.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\analysis\attribute_analyzer.py
+summary\structure_analsis\python\ENRE_py\enre\analysis\env.py
+the module summary\structure_analsis\python\ENRE_py\enre\analysis\env.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\analysis\error_handler.py
+the module summary\structure_analsis\python\ENRE_py\enre\analysis\error_handler.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\analysis\value_info.py
+the module summary\structure_analsis\python\ENRE_py\enre\analysis\value_info.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\analysis\__init__.py
+summary\structure_analsis\python\ENRE_py\enre\cfg\call_graph.py
+summary\structure_analsis\python\ENRE_py\enre\cfg\HeapObject.py
+the module summary\structure_analsis\python\ENRE_py\enre\cfg\HeapObject.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\cfg\module_tree.py
+the module summary\structure_analsis\python\ENRE_py\enre\cfg\module_tree.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\cfg\Resolver.py
+summary\structure_analsis\python\ENRE_py\enre\cfg\__init__.py
+summary\structure_analsis\python\ENRE_py\enre\dep\DepDB.py
+the module summary\structure_analsis\python\ENRE_py\enre\dep\DepDB.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\dep\__init__.py
+summary\structure_analsis\python\ENRE_py\enre\ent\entity.py
+the module summary\structure_analsis\python\ENRE_py\enre\ent\entity.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\ent\EntKind.py
+the module summary\structure_analsis\python\ENRE_py\enre\ent\EntKind.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\ent\ent_factory.py
+summary\structure_analsis\python\ENRE_py\enre\ent\ent_finder.py
+the module summary\structure_analsis\python\ENRE_py\enre\ent\ent_finder.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\ent\__init__.py
+summary\structure_analsis\python\ENRE_py\enre\passes\aggregate_control_flow_info.py
+summary\structure_analsis\python\ENRE_py\enre\passes\build_ambiguous.py
+the module summary\structure_analsis\python\ENRE_py\enre\passes\build_ambiguous.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\passes\build_visibility.py
+the module summary\structure_analsis\python\ENRE_py\enre\passes\build_visibility.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\passes\entity_pass.py
+the module summary\structure_analsis\python\ENRE_py\enre\passes\entity_pass.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\passes\__init__.py
+summary\structure_analsis\python\ENRE_py\enre\ref\Ref.py
+the module summary\structure_analsis\python\ENRE_py\enre\ref\Ref.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\ref\__init__.py
+summary\structure_analsis\python\ENRE_py\enre\test_gen\binder.py
+summary\structure_analsis\python\ENRE_py\enre\test_gen\yaml_represent.py
+summary\structure_analsis\python\ENRE_py\enre\test_gen\__init__.py
+summary\structure_analsis\python\ENRE_py\enre\vis\graphdiffer.py
+importing the module summary\structure_analsis\python\ENRE_py\enre\vis\mapping.py now analyzing this module
+importing the module summary\structure_analsis\python\ENRE_py\enre\vis\representation.py now analyzing this module
+module summary\structure_analsis\python\ENRE_py\enre\vis\representation.py finished
+module summary\structure_analsis\python\ENRE_py\enre\vis\mapping.py finished
+summary\structure_analsis\python\ENRE_py\enre\vis\mapping.py
+the module summary\structure_analsis\python\ENRE_py\enre\vis\mapping.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\vis\representation.py
+the module summary\structure_analsis\python\ENRE_py\enre\vis\representation.py already imported by some analyzed module
+summary\structure_analsis\python\ENRE_py\enre\vis\summary_repr.py
+summary\structure_analsis\python\ENRE_py\enre\vis\und_mapping.py
+summary\structure_analsis\python\ENRE_py\enre\vis\__init__.py
+summary\structure_analsis\python\ENRE_py\enre\__init__.py
+summary\structure_analsis\python\ENRE_py\enre\__main__.py
+summary\utils\clustering_utils.py
+summary\utils\feature_generation.py
+the module summary\utils\feature_generation.py already imported by some analyzed module
+summary\utils\file_clustering.py
+the module summary\utils\file_clustering.py already imported by some analyzed module
+summary\utils\file_operations.py
+the module summary\utils\file_operations.py already imported by some analyzed module
+summary\utils\function_clustering.py
+the module summary\utils\function_clustering.py already imported by some analyzed module
+summary\utils\matrix_computation.py
+summary\utils\method_summary.py
+the module summary\utils\method_summary.py already imported by some analyzed module
+Total functions: 615
+警告: 函数 aval_Name 的代码过长 (572 tokens)，已截断至 512 tokens
+警告: 函数 process_parameters 的代码过长 (834 tokens)，已截断至 512 tokens
+警告: 函数 resolve_flow_into_object_slot 的代码过长 (597 tokens)，已截断至 512 tokens
+警告: 函数 merge_features_by_method_cluster 的代码过长 (573 tokens)，已截断至 512 tokens
+summary.reposummary reposummary
+summary.model.models models
+summary.structure_analsis.python.ENRE_py.enre.__init__ __init__
+summary.structure_analsis.python.ENRE_py.enre.__main__ __main__
+summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr analyze_expr
+summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager analyze_manager
+summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_method analyze_method
+summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt analyze_stmt
+summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target assign_target
+summary.structure_analsis.python.ENRE_py.enre.analysis.attribute_analyzer attribute_analyzer
+summary.structure_analsis.python.ENRE_py.enre.analysis.env env
+summary.structure_analsis.python.ENRE_py.enre.analysis.error_handler error_handler
+summary.structure_analsis.python.ENRE_py.enre.analysis.value_info value_info
+summary.structure_analsis.python.ENRE_py.enre.analysis.__init__ __init__
+summary.structure_analsis.python.ENRE_py.enre.cfg.call_graph call_graph
+summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject HeapObject
+summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree module_tree
+summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver Resolver
+summary.structure_analsis.python.ENRE_py.enre.cfg.__init__ __init__
+summary.structure_analsis.python.ENRE_py.enre.dep.DepDB DepDB
+summary.structure_analsis.python.ENRE_py.enre.dep.__init__ __init__
+summary.structure_analsis.python.ENRE_py.enre.ent.entity entity
+summary.structure_analsis.python.ENRE_py.enre.ent.EntKind EntKind
+summary.structure_analsis.python.ENRE_py.enre.ent.ent_factory ent_factory
+summary.structure_analsis.python.ENRE_py.enre.ent.ent_finder ent_finder
+summary.structure_analsis.python.ENRE_py.enre.ent.__init__ __init__
+summary.structure_analsis.python.ENRE_py.enre.passes.aggregate_control_flow_info aggregate_control_flow_info
+summary.structure_analsis.python.ENRE_py.enre.passes.build_ambiguous build_ambiguous
+summary.structure_analsis.python.ENRE_py.enre.passes.build_visibility build_visibility
+summary.structure_analsis.python.ENRE_py.enre.passes.entity_pass entity_pass
+summary.structure_analsis.python.ENRE_py.enre.passes.__init__ __init__
+summary.structure_analsis.python.ENRE_py.enre.ref.Ref Ref
+summary.structure_analsis.python.ENRE_py.enre.ref.__init__ __init__
+summary.structure_analsis.python.ENRE_py.enre.test_gen.binder binder
+summary.structure_analsis.python.ENRE_py.enre.test_gen.yaml_represent yaml_represent
+summary.structure_analsis.python.ENRE_py.enre.test_gen.__init__ __init__
+summary.structure_analsis.python.ENRE_py.enre.vis.graphdiffer graphdiffer
+summary.structure_analsis.python.ENRE_py.enre.vis.mapping mapping
+summary.structure_analsis.python.ENRE_py.enre.vis.representation representation
+summary.structure_analsis.python.ENRE_py.enre.vis.summary_repr summary_repr
+summary.structure_analsis.python.ENRE_py.enre.vis.und_mapping und_mapping
+summary.structure_analsis.python.ENRE_py.enre.vis.__init__ __init__
+summary.utils.clustering_utils clustering_utils
+summary.utils.feature_generation feature_generation
+summary.utils.file_clustering file_clustering
+summary.utils.file_operations file_operations
+summary.utils.function_clustering function_clustering
+summary.utils.matrix_computation matrix_computation
+summary.utils.method_summary method_summary
+File ID: 0, Name: reposummary, Path: summary.reposummary, Description: reposummary
+  Function ID: 3, Name: __init__, Description: Initialize the object with a file path .
+  Function ID: 4, Name: write, Description: 确保立即写入文件
+  Function ID: 5, Name: flush, Description: Flush all the file and stdout to the standard output .
+  Function ID: 6, Name: close, Description: Close the file .
+  Function ID: 7, Name: isatty, Description: True if the current session is a tty session .
+
+
+File ID: 1, Name: models, Path: summary.model.models, Description: models
+  Function ID: 0, Name: __init__, Description: Initialize the object with the specified parameters .
+  Function ID: 1, Name: __init__, Description: Initialize the class with the given parameters .
+  Function ID: 2, Name: __init__, Description: Constructor for the grammar .
+
+
+File ID: 2, Name: __init__, Path: summary.structure_analsis.python.ENRE_py.enre.__init__, Description: __init__
+
+
+File ID: 3, Name: __main__, Path: summary.structure_analsis.python.ENRE_py.enre.__main__, Description: __main__
+  Function ID: 545, Name: main, Description: 主函数，支持从命令行调用和从 Python 代码调用
+
+Args:
+    args: 可选参数列表，如果为 None 则从 sys.argv 读取
+          如果提供列表，则使用该列表作为参数（例如: [project_root, output_dir]）.如果提供了参数列表，临时修改 sys.argv.将 args 列表转换为 sys.argv 格式.先提取 output_dir（第二个位置参数），避免 argparse 报错.从 sys.argv 中移除第二个参数，避免 argparse 报错.如果第二个参数不是以 -- 开头的选项，则视为 output_dir.临时移除第二个参数，避免 argparse 报错.获取 root_path.print(f"analysing time: {end - start}s").恢复原始的 sys.argv
+  Function ID: 546, Name: dump_call_graph, Description: Dump the call graph of the project to a JSON file .
+  Function ID: 547, Name: enre_wrapper, Description: 生成 CSV 文件.root_path 是分析时的项目根目录，应该包含源文件
+  Function ID: 548, Name: cfg_wrapper, Description: Wrapper for the Navitia - C ++ API .
+  Function ID: 549, Name: extract_method_code, Description: 从文件中提取指定行号的代码.尝试多种路径解析方式.1. 尝试直接路径（绝对路径或相对当前目录）.2. 尝试相对于项目根目录的路径.3. 尝试标准化路径分隔符.根据项目根目录的路径分隔符来标准化.如果所有路径都失败，尝试查找文件（不区分大小写）.检查路径是否匹配（忽略大小写和路径分隔符）.如果文件不存在，可能是因为文件路径是相对于分析时的项目根目录的.尝试在项目根目录下递归查找文件名匹配的文件.只在项目根目录下查找，避免搜索整个系统.检查相对路径是否匹配（忽略大小写和路径分隔符）.如果还是找不到，尝试只匹配文件名.如果 end_line 无效（<=0 或 -1），尝试提取到函数结束.首先尝试找到函数的结束位置（通过查找下一个相同或更小缩进的非空行）.如果没有有效的 end_line，尝试从 start_line 开始找到函数的结束.获取函数定义行的缩进.计算缩进（假设使用空格或制表符）.从下一行开始查找，直到找到相同或更小缩进的非空行.非空行.找到函数结束，但不包括这一行.如果没找到，就提取到文件末尾.确保 end_line 在有效范围内.Python 行号从1开始，数组索引从0开始.调试：可以取消注释来查看错误.print(f"Error extracting code from {file_path}: {e}")
+
+
+File ID: 4, Name: analyze_expr, Path: summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr, Description: analyze_expr
+  Function ID: 11, Name: __init__, Description: Initialize a new module summary builder .
+  Function ID: 12, Name: aval, Description: Visit a node and return the stores and objects .
+  Function ID: 13, Name: generic_aval, Description: Called if no explicit visitor function exists for a node .
+  Function ID: 14, Name: aval_Name, Description: Determines if a name is a storeable .
+  Function ID: 15, Name: aval_Attribute, Description: Return a tuple of StoreAbles and AbstractValue for the given attribute .
+
+
+Best gamma: 0.01, #Clusters: 1
+After merging tiny clusters, #Clusters: 1
+Cluster ID: 0, 49 Files: ['reposummary', 'models', '__init__', '__main__', 'analyze_expr', 'analyze_manager', 'analyze_method', 'analyze_stmt', 'assign_target', 'attribute_analyzer', 'env', 'error_handler', 'value_info', '__init__', 'call_graph', 'HeapObject', 'module_tree', 'Resolver', '__init__', 'DepDB', '__init__', 'entity', 'EntKind', 'ent_factory', 'ent_finder', '__init__', 'aggregate_control_flow_info', 'build_ambiguous', 'build_visibility', 'entity_pass', '__init__', 'Ref', '__init__', 'binder', 'yaml_represent', '__init__', 'graphdiffer', 'mapping', 'representation', 'summary_repr', 'und_mapping', '__init__', 'clustering_utils', 'feature_generation', 'file_clustering', 'file_operations', 'function_clustering', 'matrix_computation', 'method_summary']
+Cluster ID: 0, Functions: ['summary.reposummary.TeeOutput.__init__(self, file_path, mode, encoding)', 'summary.reposummary.TeeOutput.write(self, text)', 'summary.reposummary.TeeOutput.flush(self)', 'summary.reposummary.TeeOutput.close(self)', 'summary.reposummary.TeeOutput.isatty(self)', 'summary.reposummary.TeeOutput.__enter__(self)', 'summary.reposummary.TeeOutput.__exit__(self, exc_type, exc_val, exc_tb)', 'summary.reposummary.summary_main(project_root, output_dir)', 'summary.model.models.file_Cluster.__init__(self, cluster_id, cluster_desc, cluster_file_list)', 'summary.model.models.method_Cluster.__init__(self, cluster_id, cluster_desc, cluster_func_list)', 'summary.model.models.Feature.__init__(self, cluster_id, feature_id, feature_desc, feature_func_list)', 'summary.structure_analsis.python.ENRE_py.enre.__main__.main(args)', 'summary.structure_analsis.python.ENRE_py.enre.__main__.dump_call_graph(project_name, resolver)', 'summary.structure_analsis.python.ENRE_py.enre.__main__.enre_wrapper(root_path, compatible_format, need_cfg, need_call_graph, builtin_module, output_dir)', 'summary.structure_analsis.python.ENRE_py.enre.__main__.cfg_wrapper(root_path, scene)', 'summary.structure_analsis.python.ENRE_py.enre.__main__.extract_method_code(file_path, start_line, end_line, project_root)', 'summary.structure_analsis.python.ENRE_py.enre.__main__.extract_method_code_from_entity(node, package_db, project_root)', 'summary.structure_analsis.python.ENRE_py.enre.__main__.extract_method_code_direct(node, package_db, project_root)', 'summary.structure_analsis.python.ENRE_py.enre.__main__.get_function_signature_with_params(node, package_db)', 'summary.structure_analsis.python.ENRE_py.enre.__main__.generate_csv_files(dep_repr, package_db, project_root, output_dir)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.__init__(self, manager, package_db, current_db, typing_entities, exp_ctx, builder, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval(self, expr)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.generic_aval(self, expr)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_Name(self, name_expr)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_Attribute(self, attr_expr)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_Call(self, call_expr)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_Str(self, str_constant)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_Constant(self, constant)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_Lambda(self, lam_expr)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_ListComp(self, list_comp)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_SetComp(self, set_comp)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_DictComp(self, dict_comp)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_GeneratorExp(self, gen_exp)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_BinOp(self, bin_exp)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.dummy_generator_exp(self, generators)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.build_move_by_context(self, stores)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.create_ref_by_ctx(self, target_ent, lineno, col_offset, typing_entities, ctx, expr)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_Tuple(self, tuple_exp)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_List(self, list_exp)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_Dict(self, dict_exp)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_iterable_expr(self, iterable_elts, kind, expr)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.aval_Subscript(self, subscript)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.get_use_avaler(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.get_from_builtins(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.ExprAnalyzer.get_class_from_builtins(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.extend_known_possible_attribute(manager, attribute, possible_ents, ret, package_db, current_db)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.extend_known_or_new_possible_attribute(manager, attribute, possible_ents, ret, package_db, current_db)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.process_known_attr(attr_ents, attribute, ret, dep_db, container, receiver_type)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.process_known_or_newly_created_attr(attr_ents, attribute, ret, dep_db, container, receiver_type)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_expr.filter_not_setable_entities(ent_objs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.ModuleStack.__init__(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.ModuleStack.pop(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.ModuleStack.push(self, path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.ModuleStack.finished_module(self, path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.ModuleStack.in_process(self, path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.ModuleDB.__init__(self, project_root, module_ent)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.ModuleDB.add_ent(self, ent)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.ModuleDB.tree(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.ModuleDB.parse_a_module(self, module_path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.ModuleDB.get_module_level_bindings(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.RootDB.__init__(self, root_path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.RootDB.initialize_tree(self, path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.RootDB.get_module_db_of_path(self, item)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.RootDB.get_path_ent(self, path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.RootDB.add_ent_global(self, ent)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.RootDB.add_ent_local(self, file_path, ent)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.merge_db(package_db)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.__init__(self, root_path, builtin_path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.dir_structure_init(self, file_path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.work_flow(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.iter_dir(self, path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.analyze_module_top_stmts(self, rel_path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.add_builtins_binding_to_scope(self, module_db, scope)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.analyze_builtins(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.need_analyze(self, rel_path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.import_module(self, from_module_ent, module_identifier, lineno, col_offset, strict)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.strict_analyze_module(self, module_ent)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.alias2path(self, from_path, alias)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.add_summary(self, summary)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.create_file_summary(self, module_ent)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.create_class_summary(self, class_ent)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.create_function_summary(self, function_ent)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.get_from_builtins(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.resolve_import(self, from_module, rel_path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.in_root_db(self, path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_manager.AnalyzeManager.alias2path.resolve_head_path(imported_path, head_path)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_method.AbstractClassInfo.__init__(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_method.MethodVisitor.__init__(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_method.MethodVisitor.visit_FunctionDef(self, node)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_method.MethodVisitor.visit_Raise(self, node)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.__init__(self, rel_path, manager)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze(self, stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.generic_analyze(self, stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_function(self, name, args, body, span, decorators, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_FunctionDef(self, def_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_AsyncFunctionDef(self, def_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.set_method_info(self, def_stmt, func_ent)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_ClassDef(self, class_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_If(self, if_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_For(self, for_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_Assign(self, assign_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_AugAssign(self, aug_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_AnnAssign(self, ann_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_Expr(self, expr_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.process_assign_helper(self, rvalue_expr, target_exprs, env, annotation)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_Import(self, import_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_ImportFrom(self, import_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_With(self, with_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_Try(self, try_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_top_stmts(self, stmts, builder, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_Return(self, return_stmt, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_stmts(self, stmts, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.declare_semantic(self, target_expr, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.get_default_avaler(self, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.process_annotation(typing_ent, manager, package_db, current_db, annotation, env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.process_parameters(args, scope, env, manager, package_db, current_db, func_ent, summary, class_ctx)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.Analyzer.analyze_Import.create_proper_alias(file_ent, location)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.analyze_stmt.process_parameters.process_helper(a, ent_type, bindings, arg_kind)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.PatternBuilder.visit(self, node)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.PatternBuilder.visit_Attribute(self, node)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.PatternBuilder.visit_Lvalue(self, node)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.PatternBuilder.visit_List(self, node)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.PatternBuilder.visit_Tuple(self, node)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.PatternBuilder.visit_Starred(self, node)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.build_target(tar_expr)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.dummy_unpack(_)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.dummy_iter(_)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.dummy_iter_store(iterables, builder, expr)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.assign_semantic(target, value_type, new_bindings, ctx)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.newly_define_semantic(newly_created, value_type, new_bindings, ctx)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.assign_known_target(tar_ent, value_type, new_bindings, ctx)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.compress_abstract_value(entities)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.flatten_bindings(bindings)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.abstract_assign(lvalue, rvalue, assigned_expr, r_store_ables, builder, ctx)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.unpack_semantic(target, rvalue, r_store_ables, builder, ctx)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.assign2target(target, rvalue_expr, builder, ctx)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.assign_target.dummy_unpack.wrapper(_)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.SubEnvLookupResult.__init__(self, found_entities, must_found)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.SubEnvLookupResult.found_entities(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.SubEnvLookupResult.must_found(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.SubEnv.__init__(self, depth)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.SubEnv.join(self, sub_env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.SubEnv.get(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.SubEnv.create_continuous_bindings(self, pairs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.get_from_bindings(name, bindings)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.BasicSubEnv.__init__(self, pairs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.BasicSubEnv.get(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.BasicSubEnv.create_continuous_bindings(self, pairs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ParallelSubEnv.__init__(self, b1, b2)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ParallelSubEnv.get(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ParallelSubEnv.create_continuous_bindings(self, pairs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ContinuousSubEnv.__init__(self, forward, backward)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ContinuousSubEnv.get(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ContinuousSubEnv.create_continuous_bindings(self, pairs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.OptionalSubEnv.__init__(self, sub_env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.OptionalSubEnv.get(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.OptionalSubEnv.create_continuous_bindings(self, pairs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.Hook.__init__(self, stmts, scope_env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ScopeEnv.add_hook(self, stmts, scope_env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ScopeEnv.get_location(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ScopeEnv.get_hooks(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ScopeEnv.__init__(self, ctx_ent, location, builder, class_ctx)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ScopeEnv.get_builder(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ScopeEnv.add_sub_env(self, sub_env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ScopeEnv.pop_sub_env(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ScopeEnv.__len__(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ScopeEnv.get_ctx(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ScopeEnv.get_class_ctx(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ScopeEnv.get(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.ScopeEnv.add_continuous(self, pairs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.EntEnv.get_scope(self, offset)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.EntEnv.add_scope(self, scope_env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.EntEnv.pop_scope(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.EntEnv.add_sub_env(self, sub_env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.EntEnv.pop_sub_env(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.EntEnv.get_ctx(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.EntEnv.get_class_ctx(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.EntEnv.__init__(self, scope_env)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.env.EntEnv.get(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.error_handler.abstract_capture(name, err_constructor, ctx)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.error_handler.handler_semantic(name, error_expr, ctx)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.ValueInfo.get_any(cls)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.ValueInfo.join(self, rhs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.InstanceType.__init__(self, class_ent)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.InstanceType.lookup_attr(self, attr)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.InstanceType.join(self, rhs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.ConstructorType.__init__(self, class_ent)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.ConstructorType.lookup_attr(self, attr)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.ConstructorType.to_class_type(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.ConstructorType.join(self, rhs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.ModuleType.__init__(self, names)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.ModuleType.namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.ModuleType.join(self, rhs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.PackageType.__init__(self, names)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.PackageType.namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.PackageType.join(self, rhs)', 'summary.structure_analsis.python.ENRE_py.enre.analysis.value_info.AnyType.join(self, rhs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.call_graph.CallGraph.__init__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.call_graph.CallGraph.add_call(self, source, target)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.update_if_not_contain_all(lhs, rhs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.HeapObject.get_member(self, name, obj_slots)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.HeapObject.write_field(self, name, objs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.HeapObject.representation(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.NameSpaceObject.get_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ModuleObject.get_member(self, name, obj_slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ModuleObject.write_field(self, name, objs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ModuleObject.get_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ModuleObject.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ModuleObject.representation(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ClassObject.get_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ClassObject.get_member(self, name, obj_slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ClassObject.write_field(self, name, objs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ClassObject.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ClassObject.add_base(self, obj)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ClassObject.representation(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.InstanceObject.get_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.InstanceObject.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.InstanceObject.__eq__(self, other)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.InstanceObject.write_field(self, name, objs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.InstanceObject.get_member(self, name, obj_slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.InstanceObject.representation(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.FunctionObject.get_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.FunctionObject.get_member(self, name, obj_slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.FunctionObject.write_field(self, name, objs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.FunctionObject.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.FunctionObject.representation(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.FunctionObject.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.InstanceMethodReference.write_field(self, name, objs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.InstanceMethodReference.get_member(self, name, obj_slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.InstanceMethodReference.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.InstanceMethodReference.__eq__(self, other)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.InstanceMethodReference.representation(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.IndexableObject.get_member(self, name, obj_slots)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.IndexableObject.write_field(self, name, objs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.IndexableObject.representation(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.IndexableObject.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ConstantInstance.get_member(self, name, obj_slots)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ConstantInstance.write_field(self, name, objs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ConstantInstance.representation(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.ConstantInstance.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.get_attribute_from_class_instance(instance, attr, obj_slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.contain_same_ref(obj1, obj2, slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.is_dict_update(func)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.is_list_append(func)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.HeapObject.get_attribute_from_class_instance.extend_method_ref_is_not_exist(obj, slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FileSummary.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassSummary.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FunctionSummary.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ModuleSummary.get_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ModuleSummary.get_ent(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ModuleSummary.rules(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ModuleSummary.module_head(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ModuleSummary.add_child(self, child)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ModuleSummary.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ModuleSummary.get_syntax_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ModuleSummary.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ModuleSummary.get_object(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ModuleSummary.get_invokes(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FileSummary.__init__(self, module_ent)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FileSummary.module_head(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FileSummary.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FileSummary.rules(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FileSummary.add_child(self, child)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FileSummary.get_ent(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FileSummary.get_object(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FileSummary.get_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FileSummary.get_syntax_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassSummary.module_head(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassSummary.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassSummary.__init__(self, cls)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassSummary.rules(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassSummary.add_child(self, child)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassSummary.get_object(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassSummary.get_ent(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassSummary.get_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassSummary.get_syntax_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FunctionSummary.__init__(self, func)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FunctionSummary.get_object(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FunctionSummary.get_ent(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FunctionSummary.add_child(self, child)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FunctionSummary.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FunctionSummary.get_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FunctionSummary.module_head(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FunctionSummary.rules(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FunctionSummary.get_syntax_namespace(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.Scene.__init__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.NonConstStoreAble.get_syntax_location(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.Temporary.__init__(self, name, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.Temporary.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.Temporary.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.Temporary.get_syntax_location(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.VariableLocal.__init__(self, variable, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.VariableLocal.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.VariableLocal.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.VariableLocal.get_syntax_location(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ParameterLocal.__init__(self, parameter, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ParameterLocal.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ParameterLocal.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ParameterLocal.get_syntax_location(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.VariableOuter.__init__(self, variable, scope)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.VariableOuter.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.VariableOuter.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FieldAccess.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FieldAccess.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FieldAccess.get_syntax_location(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.IndexAccess.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.IndexAccess.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.IndexAccess.get_syntax_location(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FuncConst.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.FuncConst.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassConst.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassConst.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ModuleConst.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ModuleConst.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.PackageConst.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.PackageConst.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.Constant.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.Invoke.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.Invoke.get_syntax_location(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ClassAttributeAccess.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.ValueFlow.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.Return.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.AddBase.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.AddList.__str__(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.__init__(self, mod)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.add_store_able(self, store_able)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.add_move(self, lhs, rhs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.create_temp(self, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.add_move_temp(self, rhs, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.add_invoke(self, func, args, kwargs, invoke_expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.add_inherit(self, cls, args)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.load_field(self, field_accesses, field, context, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.load_index(self, bases, context, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.load_index_rvalues(self, bases, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.load_index_lvalue(self, base, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.add_return(self, return_stores, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.create_list(self, info, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.add_list(self, info, lst_stores, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.SummaryBuilder.add_child(self, summary)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.module_tree.get_named_store_able(current_module, ent, named_node)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.is_object_of_type(cls, lhs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.distill_object_of_type(lhs_slot, cls)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.distill_object_of_type_and_invoke_site(lhs_slot, cls, invoke)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.distill_list_of_creation_site(lst_slot, expr)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.__init__(self, scene)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.do_analysis(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.do_analysis_chaotic(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.resolve_all(self)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.resolve_module(self, module)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.resolve_rule_in_singleton_object(self, rule, obj)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.resolve_function(self, summary)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.resolve_value_flow_namespace(self, rule, namespace)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.resolve_flow_into_object_slot(self, rhs_store, current_namespace, object_slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.resolve_add_base(self, namespace_obj, cls, bases)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.abstract_store_field(self, field_access, namespace, rhs_slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.abstract_store_index(self, access_target, namespace, rhs_slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.abstract_store_index_to_objects(self, objs, rhs_slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.resolve_return(self, rule, obj)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.abstract_call(self, invoke, target, args, namespace, lhs_slot)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.abstract_object_call(self, return_slot, invoke, func, args, kwargs, namespace)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.abstract_function_object_call(self, func_obj, args, kwargs)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.handle_indexable_object_modify(self, func, args)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.abstract_class_call(self, invoke, cls, args, kwargs, namespace)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.call_initializer_on_instance(self, cls_obj, instance, args, kwargs, namespace)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.add_all_dependencies(self, module)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.resolve_add_list(self, lst, cls, expr, obj)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.get_const_object(self, store)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.get_store_able_value(self, store, namespace)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.abstract_load(self, field_access, namespace)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.get_class_attribute(self, class_attribute_access)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.abstract_load_index(self, index_access, namespace)', 'summary.structure_analsis.python.ENRE_py.enre.cfg.Resolver.Resolver.get_index_of_object_slot(self, obj_slot)', 'summary.structure_analsis.python.ENRE_py.enre.dep.DepDB.DepDB.__init__(self)', 'summary.structure_analsis.python.ENRE_py.enre.dep.DepDB.DepDB.add_ent(self, ent)', 'summary.structure_analsis.python.ENRE_py.enre.dep.DepDB.DepDB._get_define_entities(self, ent_longname, ent_name)', 'summary.structure_analsis.python.ENRE_py.enre.dep.DepDB.DepDB.get_class_attributes(self, ent, attribute)', 'summary.structure_analsis.python.ENRE_py.enre.dep.DepDB.DepDB.get_module_attributes(self, ent, attribute)', 'summary.structure_analsis.python.ENRE_py.enre.dep.DepDB.DepDB.remove(self, target)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.EntLongname.longname(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.EntLongname.name(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.EntLongname.__init__(self, scope)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.EntLongname.__eq__(self, other)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.EntLongname.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Span.get_nil(cls)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Span.offset(self, offset)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Span.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.get_syntactic_span(tree)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.get_syntactic_head(tree)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Location.append(self, name, new_span, new_path)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Location.to_longname(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Location.__init__(self, file_path, code_span, scope)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Location.__eq__(self, other)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Location.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Location.global_name(cls, name)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Location.code_span(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Location.file_path(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Syntactic.node(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Entity.__init__(self, longname, location)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Entity.refs(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Entity.set_refs(self, refs)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Entity.id(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Entity.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Entity.add_ref(self, ref)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Entity.__eq__(self, other)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Entity.direct_type(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Entity.__hash__(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.NameSpaceEntity.names(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.ScopedEntity.get_scope(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Variable.__init__(self, scope, longname, location)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Variable.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Variable.get_scope(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Function.__init__(self, longname, location)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Function.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.LambdaFunction.__init__(self, longname, location)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.LambdaFunction.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Package.__init__(self, file_path)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Package.names(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Package.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Package.add_ref(self, ref)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Module.__init__(self, file_path, hard_longname)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Module.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Module.names(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Module.add_ref(self, ref)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Module.module_longname(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Module.direct_type(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.BuiltinModule.__init__(self, file_path)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.BuiltinModule.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.BuiltinModule.names(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.BuiltinModule.add_ref(self, ref)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.BuiltinModule.module_longname(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.BuiltinModule.direct_type(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.BuiltinModule.get_BuiltinModule(builtin_path)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.ModuleAlias.__init__(self, module_ent, alias_location)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.ModuleAlias.module_longname(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.ModuleAlias.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.PackageAlias.__init__(self, package_ent, alias_location)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.PackageAlias.module_longname(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.PackageAlias.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Alias.__init__(self, longname, location, ents)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Alias.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Alias.direct_type(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Alias._build_alias_deps(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Class.__init__(self, longname, location)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Class.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Class.names(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Class.inherits(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Class.get_attribute(self, attr)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Class.add_ref(self, ref)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Class.direct_type(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Class.implement_method(self, longname)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.UnknownVar.__init__(self, name, loc)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.UnknownVar.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.UnknownVar.get_unknown_var(cls, name)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.UnknownModule.__init__(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.UnknownModule.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Parameter.__init__(self, scope, longname, location)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Parameter.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Parameter.get_scope(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.LambdaParameter.__init__(self, scope, longname, location)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.LambdaParameter.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Anonymous.__init__(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.Anonymous.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.ClassAttribute.__init__(self, class_ent, longname, location)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.ClassAttribute.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.ReferencedAttribute.__init__(self, longname, location)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.ReferencedAttribute.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.AmbiguousAttribute.__init__(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.AmbiguousAttribute.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.UnresolvedAttribute.__init__(self, longname, location, receiver_type)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.UnresolvedAttribute.kind(self)', 'summary.structure_analsis.python.ENRE_py.enre.ent.entity.get_anonymous_ent()', 'summary.structure_analsis.python.ENRE_py.enre.ent.ent_finder.get_class_attr(ent, attr)', 'summary.structure_analsis.python.ENRE_py.enre.ent.ent_finder.get_file_level_ent(m, name)', 'summary.structure_analsis.python.ENRE_py.enre.passes.aggregate_control_flow_info.get_target_ent(heap_obj)', 'summary.structure_analsis.python.ENRE_py.enre.passes.aggregate_control_flow_info.map_resolved_objs(heap_objs)', 'summary.structure_analsis.python.ENRE_py.enre.passes.aggregate_control_flow_info.aggregate_cfg_info(root_db, resolver)', 'summary.structure_analsis.python.ENRE_py.enre.passes.build_ambiguous.BuildAmbiguous.__init__(self, package_db)', 'summary.structure_analsis.python.ENRE_py.enre.passes.build_ambiguous.BuildAmbiguous.package_db(self)', 'summary.structure_analsis.python.ENRE_py.enre.passes.build_ambiguous.BuildAmbiguous.execute_pass(self)', 'summary.structure_analsis.python.ENRE_py.enre.passes.build_ambiguous.BuildAmbiguous.build_attr_map(self)', 'summary.structure_analsis.python.ENRE_py.enre.passes.build_ambiguous.BuildAmbiguous.build_ambiguous_dict(self, attr_map)', 'summary.structure_analsis.python.ENRE_py.enre.passes.build_ambiguous.BuildAmbiguous.resolve_referenced_attr(self, attr_map, ambiguous_ent_dict)', 'summary.structure_analsis.python.ENRE_py.enre.passes.build_ambiguous.BuildAmbiguous._build_ambiguous_attributes(self)', 'summary.structure_analsis.python.ENRE_py.enre.passes.build_ambiguous.BuildAmbiguous.build_ambiguous_ents(self, ambiguous_dict)', 'summary.structure_analsis.python.ENRE_py.enre.passes.build_ambiguous.BuildAmbiguous.rebuild_ref(self, ent, ref, definite_attr_dict, ambiguous_ent_dict)', 'summary.structure_analsis.python.ENRE_py.enre.passes.build_visibility.BuildVisibility.__init__(self, package_db)', 'summary.structure_analsis.python.ENRE_py.enre.passes.entity_pass.EntityPass.package_db(self)', 'summary.structure_analsis.python.ENRE_py.enre.passes.build_visibility.BuildVisibility.work_flow(self)', 'summary.structure_analsis.python.ENRE_py.enre.passes.entity_pass.DepDBPass.package_db(self)', 'summary.structure_analsis.python.ENRE_py.enre.passes.entity_pass.DepDBPass.execute_pass(self)', 'summary.structure_analsis.python.ENRE_py.enre.passes.entity_pass.EntityPass.__init__(self, package_db)', 'summary.structure_analsis.python.ENRE_py.enre.passes.entity_pass.EntityPass.execute_pass(self)', 'summary.structure_analsis.python.ENRE_py.enre.passes.entity_pass.EntityPass._resolve_referenced_attribute(self)', 'summary.structure_analsis.python.ENRE_py.enre.passes.entity_pass.EntityPass.build_attribute_dict(self)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.DepRepr.__init__(self)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.DepRepr.add_node(self, n)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.DepRepr.add_edge(self, e)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.DepRepr.to_json(self, is_neg)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.CommentHost.file_path(self)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.CommentHost.line_no(self)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.CommentHost.col_no(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.HostLine.file_path(self)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.HostLine.line_no(self)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.HostLine.col_no(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.HostLine.get_col(self, format)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.HostFile.file_path(self)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.HostFile.line_no(self)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.HostFile.col_no(self, name)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.get_index()', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.has_no_numbers(inputString)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.interp_line(comment_line, dep, neg_dep, bind, host)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.CommentBlock.write_dependencies(self, dep, neg_dep, bind)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.read_comment_block(lines, start_lineno)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.build_comment_blocks(file_path)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.gen_test_case_for(file_path)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.dump_meta_data(dep, neg_dep, ent_count, dep_count)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.merge_two_dicts(x, y)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.binder.gen_test_case_dir(dir)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.yaml_represent.json_entity_dict_to_yaml(ent_obj, is_neg)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.yaml_represent.json_entity_list_to_yaml(ent_list, is_neg)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.yaml_represent.json_entities_to_yaml(entities, neg_entities)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.yaml_represent.json_dep_dict_to_yaml(dep_obj, is_neg)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.yaml_represent.json_dep_list_to_yaml(deps, is_neg)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.yaml_represent.json_deps_to_yaml(deps, neg_deps)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.yaml_represent.load_json_dep(file_path)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.yaml_represent.translate_json(json_dep_file)', 'summary.structure_analsis.python.ENRE_py.enre.test_gen.yaml_represent.entry()', 'summary.structure_analsis.python.ENRE_py.enre.vis.graphdiffer.Graph.__init__(self, file_path)', 'summary.structure_analsis.python.ENRE_py.enre.vis.graphdiffer.Graph.init_statistic(self)', 'summary.structure_analsis.python.ENRE_py.enre.vis.graphdiffer.first_match(l, f)', 'summary.structure_analsis.python.ENRE_py.enre.vis.graphdiffer.GraphDiffer.__init__(self, base_path, tar_path, mapping)', 'summary.structure_analsis.python.ENRE_py.enre.vis.graphdiffer.GraphDiffer.diff_nodes(self)', 'summary.structure_analsis.python.ENRE_py.enre.vis.graphdiffer.GraphDiffer.diff_edges(self)', 'summary.structure_analsis.python.ENRE_py.enre.vis.graphdiffer.GraphDiffer.diff_statistic(self)', 'summary.structure_analsis.python.ENRE_py.enre.vis.graphdiffer.GraphDiffer.dump_statistic(self, fp)', 'summary.structure_analsis.python.ENRE_py.enre.vis.mapping.Mapping.is_same_node(self, base_node, und_node)', 'summary.structure_analsis.python.ENRE_py.enre.vis.mapping.Mapping.is_same_edge(self, base_edge, und_edge)', 'summary.structure_analsis.python.ENRE_py.enre.vis.representation.DepRepr.__init__(self)', 'summary.structure_analsis.python.ENRE_py.enre.vis.representation.DepRepr.add_node(self, n)', 'summary.structure_analsis.python.ENRE_py.enre.vis.representation.DepRepr.add_edge(self, e)', 'summary.structure_analsis.python.ENRE_py.enre.vis.representation.DepRepr.to_json(self)', 'summary.structure_analsis.python.ENRE_py.enre.vis.representation.DepRepr.write_ent_repr(cls, ent, dep_repr)', 'summary.structure_analsis.python.ENRE_py.enre.vis.representation.DepRepr.to_json_1(self)', 'summary.structure_analsis.python.ENRE_py.enre.vis.representation.DepRepr.from_package_db(cls, package_db)', 'summary.structure_analsis.python.ENRE_py.enre.vis.representation.DepRepr.from_und_db(cls, und_db)', 'summary.structure_analsis.python.ENRE_py.enre.vis.representation.DepRepr.get_modifiers(cls, ent)', 'summary.structure_analsis.python.ENRE_py.enre.vis.representation.exist_no_empty(modifiers)', 'summary.structure_analsis.python.ENRE_py.enre.vis.summary_repr.from_summaries(summaries)', 'summary.structure_analsis.python.ENRE_py.enre.vis.summary_repr.call_graph_representation(resolver)', 'summary.structure_analsis.python.ENRE_py.enre.vis.und_mapping.get_node_by_id(id_num, node_dict)', 'summary.structure_analsis.python.ENRE_py.enre.vis.und_mapping.UndMapping.__init__(self, root_dir, node_list, und_node_list)', 'summary.structure_analsis.python.ENRE_py.enre.vis.und_mapping.UndMapping.is_same_node(self, base_node, und_node)', 'summary.structure_analsis.python.ENRE_py.enre.vis.und_mapping.UndMapping.is_same_edge(self, base_edge, und_edge)', 'summary.structure_analsis.python.ENRE_py.enre.vis.und_mapping.UndMapping.initialize_node_dict(self)', 'summary.utils.clustering_utils.merge_tiny_clusters(labels, W, min_size, min_accept_sim, penalize_large, max_passes)', 'summary.utils.clustering_utils.symmetrize_zero_diag(M)', 'summary.utils.clustering_utils.normalize_01(M, eps)', 'summary.utils.clustering_utils.fuse_weights(A, S, a)', 'summary.utils.clustering_utils.sparsify_knn(W, k)', 'summary.utils.clustering_utils.sparsify_threshold(W, tau)', 'summary.utils.clustering_utils.build_igraph_from_W(W)', 'summary.utils.clustering_utils.run_leiden(W, gamma, seed, objective, n_iterations)', 'summary.utils.clustering_utils.cluster_size_stats(labels)', 'summary.utils.clustering_utils.cluster_intra_inter_separation(W, labels)', 'summary.utils.clustering_utils.cluster_density_std(W, labels)', 'summary.utils.clustering_utils.coassociation_matrix(partitions)', 'summary.utils.clustering_utils.consensus_labels_from_coassoc(C, tau, gamma, seed)', 'summary.utils.clustering_utils.pairwise_mean_ari(partitions)', 'summary.utils.clustering_utils.safe_silhouette_from_similarity(W, labels, use_silhouette, sample_size, rng)', 'summary.utils.feature_generation.get_client()', 'summary.utils.feature_generation.call_with_retry(fn, retries, base_delay, max_delay)', 'summary.utils.feature_generation.normalize_to_str(value)', 'summary.utils.feature_generation.clean_json_text(text)', 'summary.utils.feature_generation.parse_usecase_payload(json_str)', 'summary.utils.feature_generation.process_feature(feature, modelname)', 'summary.utils.feature_generation.generate_feature_description_parallel(feature_list, modelname, max_workers)', 'summary.utils.feature_generation.generate_feature_description(feature_list, modelname)', 'summary.utils.feature_generation.merge_features_by_method_cluster(features, method_clusters, modelname)', 'summary.utils.feature_generation.features_to_csv(features, method_clusters, filename)', 'summary.utils.method_summary.get_client()', 'summary.utils.method_summary.call_with_retry(fn, retries, base_delay, max_delay)', 'summary.utils.file_clustering.find_best_resolution(files, a, n_points, gamma_min, gamma_max, seeds_per_gamma, min_clusters, max_clusters_ratio, min_cluster_size, use_knn, knn_k, use_threshold, threshold_tau, use_silhouette, silhouette_sample_size, objective, consensus_tau, consensus_gamma, random_state)', 'summary.utils.file_clustering.save_to_file_cluster(files, best_labels)', 'summary.utils.file_clustering.find_best_resolution.minmax(xs)', 'summary.utils.file_operations.create_directory_summary(root_path)', 'summary.utils.file_operations.add_functions_to_files(files, functions, language)', 'summary.utils.function_clustering.set_func_adj_matrix(matrix)', 'summary.utils.function_clustering.compute_function_similarity_matrix(method_cluster)', 'summary.utils.function_clustering.compute_link(method_cluster)', 'summary.utils.function_clustering.symmetrize_zero_diag(M)', 'summary.utils.function_clustering.normalize_01(M, eps)', 'summary.utils.function_clustering.fuse_weights_func(S, L, a)', 'summary.utils.function_clustering.sparsify_knn(W, k)', 'summary.utils.function_clustering.sparsify_threshold(W, tau)', 'summary.utils.function_clustering.build_graph(W)', 'summary.utils.function_clustering.run_leiden_on_W(W, gamma, seed, objective, n_iterations)', 'summary.utils.function_clustering.cluster_size_stats(labels)', 'summary.utils.function_clustering.intra_inter_separation(W, labels)', 'summary.utils.function_clustering.cluster_density_std(W, labels)', 'summary.utils.function_clustering.coassociation_matrix(partitions)', 'summary.utils.function_clustering.leiden_on_consensus(C, tau, gamma, seed)', 'summary.utils.function_clustering.pairwise_mean_ari(partitions)', 'summary.utils.function_clustering.safe_silhouette_from_similarity(W, labels, use_silhouette, sample_size, rng)', 'summary.utils.function_clustering._minmax(xs)', 'summary.utils.function_clustering.evaluate_module_and_pick_best(method_cluster, weight_parameter, gamma_min, gamma_max, n_points, seeds_per_gamma, use_knn, knn_k, use_threshold, threshold_tau, min_clusters, max_clusters_ratio, use_silhouette, silhouette_sample_size, objective, consensus_tau, consensus_gamma, rng_seed)', 'summary.utils.function_clustering.cluster_all_functions_to_features(method_clusters, weight_parameter, gamma_min, gamma_max, n_points, seeds_per_gamma, use_knn, knn_k, use_threshold, threshold_tau, min_clusters, max_clusters_ratio, use_silhouette, silhouette_sample_size, objective, consensus_tau, consensus_gamma, rng_seed, target_total_features)', 'summary.utils.matrix_computation.compute_similarity_matrix(files)', 'summary.utils.matrix_computation._extract_identifiers(code)', 'summary.utils.matrix_computation.compute_link_matrix(files)', 'summary.utils.method_summary.extract_comments_from_code(code, language)', 'summary.utils.method_summary.generate_function_description_by_comment(functions, language)', 'summary.utils.method_summary.generate_function_descriptions(functions, modelname, method_adj_matrix, language)', 'summary.utils.method_summary.function_name_summary(functions)', 'summary.utils.method_summary.code_t5_summary(functions, language)', 'summary.utils.method_summary.method_summary(output_dir, strategy, language)']
+ Merging tiny cluster 46 (size 1) into 105 (sim=0.1340) 
+ Merging tiny cluster 47 (size 1) into 514 (sim=0.1265) 
+ Merging tiny cluster 48 (size 1) into 52 (sim=0.1282) 
+ Merging tiny cluster 49 (size 1) into 414 (sim=0.1117) 
+ Merging tiny cluster 50 (size 1) into 51 (sim=0.1023) 
+ Merging tiny cluster 53 (size 1) into 522 (sim=0.1249) 
+ Merging tiny cluster 54 (size 1) into 55 (sim=0.1341) 
+ Merging tiny cluster 56 (size 1) into 344 (sim=0.1311) 
+ Merging tiny cluster 57 (size 1) into 517 (sim=0.1142) 
+ Merging tiny cluster 58 (size 1) into 432 (sim=0.1100) 
+ Merging tiny cluster 59 (size 1) into 65 (sim=0.1202) 
+ Merging tiny cluster 60 (size 1) into 246 (sim=0.1011) 
+ Merging tiny cluster 61 (size 1) into 480 (sim=0.1160) 
+ Merging tiny cluster 62 (size 1) into 63 (sim=0.1410) 
+ Merging tiny cluster 64 (size 1) into 493 (sim=0.1115) 
+ Merging tiny cluster 66 (size 1) into 261 (sim=0.1313) 
+ Merging tiny cluster 67 (size 1) into 162 (sim=0.1192) 
+ Merging tiny cluster 68 (size 1) into 136 (sim=0.1454) 
+ Merging tiny cluster 69 (size 1) into 336 (sim=0.1110) 
+ Merging tiny cluster 70 (size 1) into 76 (sim=0.1364) 
+ Merging tiny cluster 71 (size 1) into 174 (sim=0.1140) 
+ Merging tiny cluster 72 (size 1) into 239 (sim=0.1195) 
+ Merging tiny cluster 73 (size 1) into 177 (sim=0.1084) 
+ Merging tiny cluster 74 (size 1) into 236 (sim=0.1128) 
+ Merging tiny cluster 75 (size 1) into 84 (sim=0.1226) 
+ Merging tiny cluster 77 (size 1) into 85 (sim=0.1282) 
+ Merging tiny cluster 78 (size 1) into 87 (sim=0.1230) 
+ Merging tiny cluster 79 (size 1) into 83 (sim=0.1087) 
+ Merging tiny cluster 80 (size 1) into 283 (sim=0.1156) 
+ Merging tiny cluster 81 (size 1) into 282 (sim=0.1020) 
+ Merging tiny cluster 82 (size 1) into 329 (sim=0.1136) 
+ Merging tiny cluster 86 (size 1) into 125 (sim=0.1121) 
+ Merging tiny cluster 88 (size 1) into 219 (sim=0.1046) 
+ Merging tiny cluster 89 (size 1) into 277 (sim=0.1178) 
+ Merging tiny cluster 90 (size 1) into 206 (sim=0.1213) 
+ Merging tiny cluster 91 (size 1) into 92 (sim=0.1333) 
+ Merging tiny cluster 93 (size 1) into 94 (sim=0.1384) 
+ Merging tiny cluster 95 (size 1) into 463 (sim=0.1218) 
+ Merging tiny cluster 96 (size 1) into 303 (sim=0.1204) 
+ Merging tiny cluster 97 (size 1) into 99 (sim=0.1328) 
+ Merging tiny cluster 98 (size 1) into 370 (sim=0.1155) 
+ Merging tiny cluster 100 (size 1) into 112 (sim=0.1296) 
+ Merging tiny cluster 101 (size 1) into 109 (sim=0.1191) 
+ Merging tiny cluster 102 (size 1) into 395 (sim=0.1250) 
+ Merging tiny cluster 103 (size 1) into 107 (sim=0.1268) 
+ Merging tiny cluster 104 (size 1) into 186 (sim=0.1267) 
+ Merging tiny cluster 106 (size 1) into 110 (sim=0.1237) 
+ Merging tiny cluster 108 (size 1) into 119 (sim=0.1190) 
+ Merging tiny cluster 111 (size 1) into 413 (sim=0.1174) 
+ Merging tiny cluster 113 (size 1) into 427 (sim=0.1153) 
+ Merging tiny cluster 114 (size 1) into 320 (sim=0.1016) 
+ Merging tiny cluster 115 (size 1) into 401 (sim=0.1143) 
+ Merging tiny cluster 116 (size 1) into 250 (sim=0.1177) 
+ Merging tiny cluster 117 (size 1) into 189 (sim=0.1178) 
+ Merging tiny cluster 118 (size 1) into 155 (sim=0.1232) 
+ Merging tiny cluster 120 (size 1) into 387 (sim=0.1168) 
+ Merging tiny cluster 121 (size 1) into 124 (sim=0.1146) 
+ Merging tiny cluster 122 (size 1) into 375 (sim=0.1097) 
+ Merging tiny cluster 123 (size 1) into 368 (sim=0.1194) 
+ Merging tiny cluster 126 (size 1) into 306 (sim=0.1221) 
+ Merging tiny cluster 127 (size 1) into 176 (sim=0.1096) 
+ Merging tiny cluster 128 (size 1) into 304 (sim=0.1294) 
+ Merging tiny cluster 129 (size 1) into 193 (sim=0.1024) 
+ Merging tiny cluster 130 (size 1) into 150 (sim=0.1099) 
+ Merging tiny cluster 131 (size 1) into 319 (sim=0.1281) 
+ Merging tiny cluster 132 (size 1) into 412 (sim=0.1129) 
+ Merging tiny cluster 133 (size 1) into 135 (sim=0.1241) 
+ Merging tiny cluster 134 (size 1) into 285 (sim=0.0993) 
+ Merging tiny cluster 137 (size 1) into 161 (sim=0.1046) 
+ Merging tiny cluster 138 (size 1) into 139 (sim=0.1213) 
+ Merging tiny cluster 140 (size 1) into 232 (sim=0.1075) 
+ Merging tiny cluster 141 (size 1) into 393 (sim=0.1170) 
+ Merging tiny cluster 142 (size 1) into 276 (sim=0.1049) 
+ Merging tiny cluster 143 (size 1) into 416 (sim=0.1114) 
+ Merging tiny cluster 144 (size 1) into 145 (sim=0.1179) 
+ Merging tiny cluster 146 (size 1) into 158 (sim=0.1318) 
+ Merging tiny cluster 147 (size 1) into 151 (sim=0.1112) 
+ Merging tiny cluster 148 (size 1) into 417 (sim=0.1125) 
+ Merging tiny cluster 149 (size 1) into 196 (sim=0.1036) 
+ Merging tiny cluster 152 (size 1) into 154 (sim=0.1114) 
+ Merging tiny cluster 153 (size 1) into 348 (sim=0.0963) 
+ Merging tiny cluster 156 (size 1) into 218 (sim=0.1087) 
+ Merging tiny cluster 157 (size 1) into 405 (sim=0.1008) 
+ Merging tiny cluster 159 (size 1) into 423 (sim=0.1033) 
+ Merging tiny cluster 160 (size 1) into 373 (sim=0.1205) 
+ Merging tiny cluster 163 (size 1) into 164 (sim=0.1282) 
+ Merging tiny cluster 165 (size 1) into 166 (sim=0.1133) 
+ Merging tiny cluster 167 (size 1) into 377 (sim=0.1091) 
+ Merging tiny cluster 168 (size 1) into 178 (sim=0.1129) 
+ Merging tiny cluster 169 (size 1) into 334 (sim=0.1029) 
+ Merging tiny cluster 170 (size 1) into 171 (sim=0.1269) 
+ Merging tiny cluster 172 (size 1) into 194 (sim=0.1055) 
+ Merging tiny cluster 173 (size 1) into 394 (sim=0.1102) 
+ Merging tiny cluster 175 (size 1) into 217 (sim=0.1173) 
+ Merging tiny cluster 179 (size 1) into 248 (sim=0.1095) 
+ Merging tiny cluster 180 (size 1) into 399 (sim=0.1135) 
+ Merging tiny cluster 181 (size 1) into 400 (sim=0.1229) 
+ Merging tiny cluster 182 (size 1) into 184 (sim=0.1200) 
+ Merging tiny cluster 183 (size 1) into 212 (sim=0.1267) 
+ Merging tiny cluster 185 (size 1) into 203 (sim=0.1141) 
+ Merging tiny cluster 187 (size 1) into 280 (sim=0.1249) 
+ Merging tiny cluster 188 (size 1) into 342 (sim=0.1185) 
+ Merging tiny cluster 190 (size 1) into 359 (sim=0.1398) 
+ Merging tiny cluster 191 (size 1) into 396 (sim=0.1124) 
+ Merging tiny cluster 192 (size 1) into 364 (sim=0.1002) 
+ Merging tiny cluster 195 (size 1) into 255 (sim=0.1420) 
+ Merging tiny cluster 197 (size 1) into 264 (sim=0.1323) 
+ Merging tiny cluster 198 (size 1) into 353 (sim=0.1244) 
+ Merging tiny cluster 199 (size 1) into 230 (sim=0.1201) 
+ Merging tiny cluster 200 (size 1) into 249 (sim=0.1109) 
+ Merging tiny cluster 201 (size 1) into 376 (sim=0.1316) 
+ Merging tiny cluster 202 (size 1) into 325 (sim=0.1168) 
+ Merging tiny cluster 204 (size 1) into 216 (sim=0.1174) 
+ Merging tiny cluster 205 (size 1) into 213 (sim=0.0973) 
+ Merging tiny cluster 207 (size 1) into 330 (sim=0.1103) 
+ Merging tiny cluster 208 (size 1) into 291 (sim=0.1321) 
+ Merging tiny cluster 209 (size 1) into 358 (sim=0.1275) 
+ Merging tiny cluster 210 (size 1) into 215 (sim=0.1110) 
+ Merging tiny cluster 211 (size 1) into 333 (sim=0.1088) 
+ Merging tiny cluster 214 (size 1) into 379 (sim=0.1144) 
+ Merging tiny cluster 220 (size 1) into 221 (sim=0.1141) 
+ Merging tiny cluster 222 (size 1) into 256 (sim=0.1106) 
+ Merging tiny cluster 223 (size 1) into 224 (sim=0.1112) 
+ Merging tiny cluster 225 (size 1) into 445 (sim=0.1125) 
+ Merging tiny cluster 226 (size 1) into 425 (sim=0.1052) 
+ Merging tiny cluster 227 (size 1) into 345 (sim=0.1103) 
+ Merging tiny cluster 228 (size 1) into 234 (sim=0.1134) 
+ Merging tiny cluster 229 (size 1) into 267 (sim=0.1099) 
+ Merging tiny cluster 231 (size 1) into 407 (sim=0.1152) 
+ Merging tiny cluster 233 (size 1) into 339 (sim=0.1219) 
+ Merging tiny cluster 235 (size 1) into 260 (sim=0.1146) 
+ Merging tiny cluster 237 (size 1) into 346 (sim=0.1202) 
+ Merging tiny cluster 238 (size 1) into 450 (sim=0.1125) 
+ Merging tiny cluster 240 (size 1) into 296 (sim=0.1233) 
+ Merging tiny cluster 241 (size 1) into 242 (sim=0.1127) 
+ Merging tiny cluster 243 (size 1) into 293 (sim=0.1157) 
+ Merging tiny cluster 244 (size 1) into 251 (sim=0.1230) 
+ Merging tiny cluster 245 (size 1) into 369 (sim=0.1197) 
+ Merging tiny cluster 247 (size 1) into 459 (sim=0.1282) 
+ Merging tiny cluster 252 (size 1) into 253 (sim=0.1268) 
+ Merging tiny cluster 254 (size 1) into 332 (sim=0.1139) 
+ Merging tiny cluster 257 (size 1) into 264 (sim=0.1100) 
+ Merging tiny cluster 258 (size 1) into 278 (sim=0.1139) 
+ Merging tiny cluster 259 (size 1) into 317 (sim=0.1038) 
+ Merging tiny cluster 262 (size 1) into 392 (sim=0.1176) 
+ Merging tiny cluster 263 (size 1) into 274 (sim=0.1402) 
+ Merging tiny cluster 265 (size 1) into 421 (sim=0.1367) 
+ Merging tiny cluster 266 (size 1) into 269 (sim=0.1287) 
+ Merging tiny cluster 268 (size 1) into 354 (sim=0.1010) 
+ Merging tiny cluster 270 (size 1) into 380 (sim=0.1181) 
+ Merging tiny cluster 271 (size 1) into 292 (sim=0.1101) 
+ Merging tiny cluster 272 (size 1) into 275 (sim=0.1223) 
+ Merging tiny cluster 273 (size 1) into 279 (sim=0.1161) 
+ Merging tiny cluster 281 (size 1) into 284 (sim=0.1227) 
+ Merging tiny cluster 286 (size 1) into 309 (sim=0.1241) 
+ Merging tiny cluster 287 (size 1) into 313 (sim=0.1014) 
+ Merging tiny cluster 288 (size 1) into 289 (sim=0.1442) 
+ Merging tiny cluster 290 (size 1) into 326 (sim=0.1144) 
+ Merging tiny cluster 294 (size 1) into 367 (sim=0.1100) 
+ Merging tiny cluster 295 (size 1) into 381 (sim=0.0991) 
+ Merging tiny cluster 297 (size 1) into 327 (sim=0.1140) 
+ Merging tiny cluster 298 (size 1) into 315 (sim=0.1231) 
+ Merging tiny cluster 299 (size 1) into 312 (sim=0.1074) 
+ Merging tiny cluster 300 (size 1) into 301 (sim=0.1176) 
+ Merging tiny cluster 302 (size 1) into 475 (sim=0.0975) 
+ Merging tiny cluster 305 (size 1) into 308 (sim=0.1086) 
+ Merging tiny cluster 307 (size 1) into 357 (sim=0.1092) 
+ Merging tiny cluster 310 (size 1) into 318 (sim=0.1088) 
+ Merging tiny cluster 311 (size 1) into 496 (sim=0.0967) 
+ Merging tiny cluster 314 (size 1) into 361 (sim=0.1017) 
+ Merging tiny cluster 316 (size 1) into 388 (sim=0.0992) 
+ Merging tiny cluster 321 (size 1) into 403 (sim=0.1021) 
+ Merging tiny cluster 322 (size 1) into 360 (sim=0.0990) 
+ Merging tiny cluster 323 (size 1) into 324 (sim=0.1171) 
+ Merging tiny cluster 328 (size 1) into 21 (sim=0.0999) 
+ Merging tiny cluster 331 (size 1) into 397 (sim=0.1100) 
+ Merging tiny cluster 335 (size 1) into 350 (sim=0.1171) 
+ Merging tiny cluster 337 (size 1) into 501 (sim=0.0924) 
+ Merging tiny cluster 338 (size 1) into 353 (sim=0.0986) 
+ Merging tiny cluster 340 (size 1) into 355 (sim=0.0886) 
+ Merging tiny cluster 341 (size 1) into 452 (sim=0.1157) 
+ Merging tiny cluster 343 (size 1) into 389 (sim=0.1271) 
+ Merging tiny cluster 347 (size 1) into 490 (sim=0.0937) 
+ Merging tiny cluster 349 (size 1) into 449 (sim=0.1079) 
+ Merging tiny cluster 351 (size 1) into 461 (sim=0.1003) 
+ Merging tiny cluster 352 (size 1) into 492 (sim=0.1054) 
+ Merging tiny cluster 356 (size 1) into 374 (sim=0.1401) 
+ Merging tiny cluster 362 (size 1) into 366 (sim=0.1259) 
+ Merging tiny cluster 363 (size 1) into 390 (sim=0.1419) 
+ Merging tiny cluster 365 (size 1) into 372 (sim=0.1156) 
+ Merging tiny cluster 371 (size 1) into 386 (sim=0.1111) 
+ Merging tiny cluster 378 (size 1) into 408 (sim=0.1071) 
+ Merging tiny cluster 382 (size 1) into 391 (sim=0.1011) 
+ Merging tiny cluster 383 (size 1) into 458 (sim=0.1038) 
+ Merging tiny cluster 384 (size 1) into 385 (sim=0.1171) 
+ Merging tiny cluster 398 (size 1) into 411 (sim=0.1220) 
+ Merging tiny cluster 402 (size 1) into 457 (sim=0.0995) 
+ Merging tiny cluster 404 (size 1) into 428 (sim=0.1093) 
+ Merging tiny cluster 406 (size 1) into 410 (sim=0.1088) 
+ Merging tiny cluster 409 (size 1) into 484 (sim=0.0936) 
+ Merging tiny cluster 415 (size 1) into 453 (sim=0.0977) 
+ Merging tiny cluster 418 (size 1) into 454 (sim=0.1168) 
+ Merging tiny cluster 419 (size 1) into 420 (sim=0.1043) 
+ Merging tiny cluster 422 (size 1) into 424 (sim=0.1117) 
+ Merging tiny cluster 426 (size 1) into 471 (sim=0.0911) 
+ Merging tiny cluster 429 (size 1) into 430 (sim=0.1283) 
+ Merging tiny cluster 431 (size 1) into 434 (sim=0.1194) 
+ Merging tiny cluster 433 (size 1) into 436 (sim=0.0916) 
+ Merging tiny cluster 435 (size 1) into 438 (sim=0.1264) 
+ Merging tiny cluster 437 (size 1) into 439 (sim=0.1064) 
+ Merging tiny cluster 440 (size 1) into 483 (sim=0.1083) 
+ Merging tiny cluster 441 (size 1) into 443 (sim=0.1066) 
+ Merging tiny cluster 442 (size 1) into 482 (sim=0.1049) 
+ Merging tiny cluster 444 (size 1) into 469 (sim=0.0922) 
+ Merging tiny cluster 446 (size 1) into 447 (sim=0.1123) 
+ Merging tiny cluster 448 (size 1) into 472 (sim=0.1077) 
+ Merging tiny cluster 451 (size 1) into 464 (sim=0.1211) 
+ Merging tiny cluster 455 (size 1) into 456 (sim=0.1241) 
+ Merging tiny cluster 460 (size 1) into 518 (sim=0.1004) 
+ Merging tiny cluster 462 (size 1) into 465 (sim=0.1031) 
+ Merging tiny cluster 466 (size 1) into 470 (sim=0.1145) 
+ Merging tiny cluster 467 (size 1) into 497 (sim=0.1417) 
+ Merging tiny cluster 468 (size 1) into 498 (sim=0.1418) 
+ Merging tiny cluster 473 (size 1) into 503 (sim=0.1250) 
+ Merging tiny cluster 474 (size 1) into 506 (sim=0.1224) 
+ Merging tiny cluster 476 (size 1) into 486 (sim=0.1159) 
+ Merging tiny cluster 477 (size 1) into 521 (sim=0.1063) 
+ Merging tiny cluster 478 (size 1) into 495 (sim=0.1091) 
+ Merging tiny cluster 479 (size 1) into 509 (sim=0.1218) 
+ Merging tiny cluster 481 (size 1) into 515 (sim=0.1119) 
+ Merging tiny cluster 485 (size 1) into 488 (sim=0.1024) 
+ Merging tiny cluster 487 (size 1) into 513 (sim=0.1178) 
+ Merging tiny cluster 489 (size 1) into 491 (sim=0.1035) 
+ Merging tiny cluster 494 (size 1) into 519 (sim=0.1416) 
+ Merging tiny cluster 499 (size 1) into 502 (sim=0.1015) 
+ Merging tiny cluster 500 (size 1) into 507 (sim=0.0960) 
+ Merging tiny cluster 504 (size 1) into 505 (sim=0.1089) 
+ Merging tiny cluster 508 (size 1) into 503 (sim=0.0871) 
+ Merging tiny cluster 510 (size 1) into 511 (sim=0.0914) 
+ Merging tiny cluster 512 (size 1) into 516 (sim=0.0889) 
+ Merging tiny cluster 520 (size 1) into 514 (sim=0.0966) 
+Total Features: 282
+Feature ID 1: 0 {'reposummary', 'analyze_manager'}
+Feature ID 2: 0 {'reposummary', 'matrix_computation', 'method_summary'}
+Feature ID 3: 0 {'reposummary'}
+Feature ID 4: 0 {'reposummary', 'entity_pass'}
+Feature ID 5: 0 {'reposummary'}
+Feature ID 6: 0 {'reposummary', 'method_summary'}
+Feature ID 7: 0 {'models'}
+Feature ID 8: 0 {'entity', 'models'}
+Feature ID 9: 0 {'method_summary', '__main__'}
+Feature ID 10: 0 {'__main__', 'binder'}
+Feature ID 11: 0 {'__main__'}
+Feature ID 12: 0 {'module_tree', '__main__'}
+Feature ID 13: 0 {'__main__', 'clustering_utils'}
+Feature ID 14: 0 {'__main__'}
+Feature ID 15: 0 {'file_operations', '__main__'}
+Feature ID 16: 0 {'module_tree', 'analyze_expr'}
+Feature ID 17: 0 {'assign_target', 'analyze_expr'}
+Feature ID 18: 0 {'analyze_stmt', 'analyze_expr'}
+Feature ID 19: 0 {'entity', 'analyze_expr'}
+Feature ID 20: 0 {'analyze_expr'}
+Feature ID 21: 0 {'assign_target', 'analyze_expr'}
+Feature ID 22: 0 {'HeapObject', 'analyze_expr'}
+Feature ID 23: 0 {'assign_target', 'analyze_expr'}
+Feature ID 24: 0 {'HeapObject', 'analyze_expr'}
+Feature ID 25: 0 {'analyze_expr'}
+Feature ID 26: 0 {'analyze_expr'}
+Feature ID 27: 0 {'analyze_expr'}
+Feature ID 28: 0 {'analyze_expr'}
+Feature ID 29: 0 {'module_tree', 'analyze_expr'}
+Feature ID 30: 0 {'module_tree', 'analyze_expr'}
+Feature ID 31: 0 {'DepDB', 'analyze_expr'}
+Feature ID 32: 0 {'analyze_manager', 'analyze_expr'}
+Feature ID 33: 0 {'value_info', 'analyze_expr'}
+Feature ID 34: 0 {'module_tree', 'analyze_expr'}
+Feature ID 35: 0 {'analyze_expr', 'env'}
+Feature ID 36: 0 {'analyze_expr'}
+Feature ID 37: 0 {'analyze_expr'}
+Feature ID 38: 0 {'und_mapping', 'analyze_expr'}
+Feature ID 39: 0 {'module_tree', 'analyze_manager', 'build_ambiguous'}
+Feature ID 40: 0 {'analyze_manager', 'Resolver'}
+Feature ID 41: 0 {'analyze_manager'}
+Feature ID 42: 0 {'entity', 'analyze_manager'}
+Feature ID 43: 0 {'analyze_manager'}
+Feature ID 44: 0 {'analyze_manager'}
+Feature ID 45: 0 {'entity', 'analyze_manager'}
+Feature ID 46: 0 {'analyze_manager'}
+Feature ID 47: 0 {'analyze_manager', 'env'}
+Feature ID 48: 0 {'analyze_manager'}
+Feature ID 49: 0 {'analyze_manager'}
+Feature ID 50: 0 {'entity_pass', 'analyze_manager'}
+Feature ID 51: 0 {'analyze_manager', 'binder'}
+Feature ID 52: 0 {'analyze_manager', 'Resolver'}
+Feature ID 53: 0 {'analyze_manager', 'ent_finder'}
+Feature ID 54: 0 {'module_tree', 'analyze_manager'}
+Feature ID 55: 0 {'analyze_manager', 'env'}
+Feature ID 56: 0 {'analyze_manager', 'analyze_stmt'}
+Feature ID 57: 0 {'entity', 'analyze_manager'}
+Feature ID 58: 0 {'analyze_manager'}
+Feature ID 59: 0 {'entity', 'analyze_manager'}
+Feature ID 60: 0 {'entity', 'analyze_manager'}
+Feature ID 61: 0 {'analyze_manager', 'Resolver'}
+Feature ID 62: 0 {'analyze_manager', 'assign_target'}
+Feature ID 63: 0 {'analyze_manager', 'Resolver'}
+Feature ID 64: 0 {'analyze_manager', 'env'}
+Feature ID 65: 0 {'analyze_manager', 'analyze_stmt'}
+Feature ID 66: 0 {'Resolver', 'analyze_method'}
+Feature ID 67: 0 {'module_tree', 'analyze_method'}
+Feature ID 68: 0 {'build_visibility', 'analyze_method'}
+Feature ID 69: 0 {'analyze_stmt', 'analyze_method'}
+Feature ID 70: 0 {'module_tree', 'analyze_stmt'}
+Feature ID 71: 0 {'analyze_stmt'}
+Feature ID 72: 0 {'analyze_stmt'}
+Feature ID 73: 0 {'HeapObject', 'analyze_stmt'}
+Feature ID 74: 0 {'entity', 'analyze_stmt'}
+Feature ID 75: 0 {'module_tree', 'analyze_stmt'}
+Feature ID 76: 0 {'entity_pass', 'analyze_stmt'}
+Feature ID 77: 0 {'analyze_stmt'}
+Feature ID 78: 0 {'analyze_stmt'}
+Feature ID 79: 0 {'analyze_stmt'}
+Feature ID 80: 0 {'entity_pass', 'analyze_stmt'}
+Feature ID 81: 0 {'analyze_stmt', 'env'}
+Feature ID 82: 0 {'analyze_stmt'}
+Feature ID 83: 0 {'entity', 'analyze_stmt'}
+Feature ID 84: 0 {'error_handler', 'analyze_stmt'}
+Feature ID 85: 0 {'analyze_stmt', 'build_ambiguous'}
+Feature ID 86: 0 {'binder', 'analyze_stmt'}
+Feature ID 87: 0 {'entity', 'analyze_stmt'}
+Feature ID 88: 0 {'assign_target'}
+Feature ID 89: 0 {'assign_target'}
+Feature ID 90: 0 {'entity', 'assign_target'}
+Feature ID 91: 0 {'assign_target'}
+Feature ID 92: 0 {'entity', 'assign_target'}
+Feature ID 93: 0 {'assign_target'}
+Feature ID 94: 0 {'assign_target', 'env'}
+Feature ID 95: 0 {'entity', 'assign_target'}
+Feature ID 96: 0 {'error_handler', 'assign_target'}
+Feature ID 97: 0 {'module_tree', 'assign_target'}
+Feature ID 98: 0 {'entity', 'assign_target'}
+Feature ID 99: 0 {'entity', 'entity_pass', 'env'}
+Feature ID 100: 0 {'ent_finder', 'env'}
+Feature ID 101: 0 {'env'}
+Feature ID 102: 0 {'env'}
+Feature ID 103: 0 {'env'}
+Feature ID 104: 0 {'module_tree', 'env'}
+Feature ID 105: 0 {'entity', 'env'}
+Feature ID 106: 0 {'entity', 'env'}
+Feature ID 107: 0 {'entity', 'env'}
+Feature ID 108: 0 {'env'}
+Feature ID 109: 0 {'entity', 'env'}
+Feature ID 110: 0 {'module_tree', 'env'}
+Feature ID 111: 0 {'module_tree', 'env'}
+Feature ID 112: 0 {'entity', 'env'}
+Feature ID 113: 0 {'HeapObject', 'env'}
+Feature ID 114: 0 {'module_tree', 'env'}
+Feature ID 115: 0 {'entity', 'env'}
+Feature ID 116: 0 {'Resolver', 'env'}
+Feature ID 117: 0 {'env'}
+Feature ID 118: 0 {'env'}
+Feature ID 119: 0 {'env'}
+Feature ID 120: 0 {'DepDB', 'env'}
+Feature ID 121: 0 {'module_tree', 'env'}
+Feature ID 122: 0 {'entity', 'env'}
+Feature ID 123: 0 {'env'}
+Feature ID 124: 0 {'DepDB', 'env'}
+Feature ID 125: 0 {'entity', 'env'}
+Feature ID 126: 0 {'value_info'}
+Feature ID 127: 0 {'value_info', 'binder', 'representation'}
+Feature ID 128: 0 {'value_info'}
+Feature ID 129: 0 {'module_tree', 'value_info'}
+Feature ID 130: 0 {'value_info'}
+Feature ID 131: 0 {'value_info', 'DepDB'}
+Feature ID 132: 0 {'entity', 'value_info'}
+Feature ID 133: 0 {'value_info'}
+Feature ID 134: 0 {'graphdiffer', 'call_graph'}
+Feature ID 135: 0 {'binder', 'call_graph'}
+Feature ID 136: 0 {'entity', 'HeapObject'}
+Feature ID 137: 0 {'HeapObject'}
+Feature ID 138: 0 {'module_tree', 'HeapObject'}
+Feature ID 139: 0 {'module_tree', 'HeapObject'}
+Feature ID 140: 0 {'HeapObject'}
+Feature ID 141: 0 {'HeapObject'}
+Feature ID 142: 0 {'HeapObject'}
+Feature ID 143: 0 {'HeapObject'}
+Feature ID 144: 0 {'module_tree', 'HeapObject'}
+Feature ID 145: 0 {'HeapObject', 'build_ambiguous'}
+Feature ID 146: 0 {'entity', 'HeapObject'}
+Feature ID 147: 0 {'entity', 'HeapObject'}
+Feature ID 148: 0 {'HeapObject'}
+Feature ID 149: 0 {'module_tree', 'HeapObject'}
+Feature ID 150: 0 {'entity', 'HeapObject'}
+Feature ID 151: 0 {'mapping', 'HeapObject'}
+Feature ID 152: 0 {'HeapObject'}
+Feature ID 153: 0 {'HeapObject'}
+Feature ID 154: 0 {'HeapObject', 'Resolver'}
+Feature ID 155: 0 {'HeapObject'}
+Feature ID 156: 0 {'module_tree'}
+Feature ID 157: 0 {'module_tree'}
+Feature ID 158: 0 {'module_tree'}
+Feature ID 159: 0 {'entity', 'module_tree'}
+Feature ID 160: 0 {'module_tree'}
+Feature ID 161: 0 {'module_tree', 'summary_repr'}
+Feature ID 162: 0 {'module_tree'}
+Feature ID 163: 0 {'module_tree'}
+Feature ID 164: 0 {'module_tree'}
+Feature ID 165: 0 {'module_tree'}
+Feature ID 166: 0 {'module_tree'}
+Feature ID 167: 0 {'module_tree', 'DepDB'}
+Feature ID 168: 0 {'module_tree'}
+Feature ID 169: 0 {'module_tree', 'Resolver'}
+Feature ID 170: 0 {'module_tree'}
+Feature ID 171: 0 {'entity', 'module_tree'}
+Feature ID 172: 0 {'module_tree'}
+Feature ID 173: 0 {'module_tree', 'binder'}
+Feature ID 174: 0 {'module_tree'}
+Feature ID 175: 0 {'module_tree'}
+Feature ID 176: 0 {'entity', 'module_tree'}
+Feature ID 177: 0 {'entity', 'module_tree'}
+Feature ID 178: 0 {'module_tree'}
+Feature ID 179: 0 {'module_tree'}
+Feature ID 180: 0 {'module_tree'}
+Feature ID 181: 0 {'module_tree'}
+Feature ID 182: 0 {'module_tree', 'Resolver'}
+Feature ID 183: 0 {'module_tree', 'Resolver'}
+Feature ID 184: 0 {'module_tree'}
+Feature ID 185: 0 {'module_tree', 'Resolver'}
+Feature ID 186: 0 {'entity', 'module_tree'}
+Feature ID 187: 0 {'entity', 'module_tree'}
+Feature ID 188: 0 {'Resolver'}
+Feature ID 189: 0 {'Resolver'}
+Feature ID 190: 0 {'Resolver'}
+Feature ID 191: 0 {'Resolver'}
+Feature ID 192: 0 {'clustering_utils', 'Resolver'}
+Feature ID 193: 0 {'Resolver'}
+Feature ID 194: 0 {'entity', 'Resolver'}
+Feature ID 195: 0 {'Resolver'}
+Feature ID 196: 0 {'function_clustering', 'Resolver'}
+Feature ID 197: 0 {'entity', 'Resolver'}
+Feature ID 198: 0 {'entity', 'Resolver'}
+Feature ID 199: 0 {'aggregate_control_flow_info', 'Resolver'}
+Feature ID 200: 0 {'entity', 'Resolver'}
+Feature ID 201: 0 {'Resolver'}
+Feature ID 202: 0 {'entity', 'DepDB'}
+Feature ID 203: 0 {'entity'}
+Feature ID 204: 0 {'entity'}
+Feature ID 205: 0 {'entity', 'function_clustering'}
+Feature ID 206: 0 {'entity'}
+Feature ID 207: 0 {'entity', 'representation'}
+Feature ID 208: 0 {'entity'}
+Feature ID 209: 0 {'entity', 'file_clustering'}
+Feature ID 210: 0 {'entity', 'graphdiffer'}
+Feature ID 211: 0 {'entity', 'und_mapping'}
+Feature ID 212: 0 {'entity', 'file_operations'}
+Feature ID 213: 0 {'entity'}
+Feature ID 214: 0 {'entity'}
+Feature ID 215: 0 {'entity'}
+Feature ID 216: 0 {'entity'}
+Feature ID 217: 0 {'entity'}
+Feature ID 218: 0 {'entity'}
+Feature ID 219: 0 {'entity'}
+Feature ID 220: 0 {'entity'}
+Feature ID 221: 0 {'entity'}
+Feature ID 222: 0 {'entity'}
+Feature ID 223: 0 {'entity'}
+Feature ID 224: 0 {'entity'}
+Feature ID 225: 0 {'entity'}
+Feature ID 226: 0 {'entity', 'build_ambiguous'}
+Feature ID 227: 0 {'entity'}
+Feature ID 228: 0 {'entity', 'representation'}
+Feature ID 229: 0 {'entity'}
+Feature ID 230: 0 {'entity'}
+Feature ID 231: 0 {'entity', 'build_ambiguous'}
+Feature ID 232: 0 {'aggregate_control_flow_info', 'representation'}
+Feature ID 233: 0 {'aggregate_control_flow_info', 'binder'}
+Feature ID 234: 0 {'build_ambiguous'}
+Feature ID 235: 0 {'build_ambiguous'}
+Feature ID 236: 0 {'feature_generation', 'build_ambiguous'}
+Feature ID 237: 0 {'entity_pass', 'representation'}
+Feature ID 238: 0 {'binder', 'representation'}
+Feature ID 239: 0 {'binder', 'representation'}
+Feature ID 240: 0 {'binder', 'representation'}
+Feature ID 241: 0 {'binder'}
+Feature ID 242: 0 {'binder'}
+Feature ID 243: 0 {'binder'}
+Feature ID 244: 0 {'binder'}
+Feature ID 245: 0 {'clustering_utils', 'binder'}
+Feature ID 246: 0 {'binder'}
+Feature ID 247: 0 {'binder'}
+Feature ID 248: 0 {'yaml_represent', 'binder'}
+Feature ID 249: 0 {'yaml_represent'}
+Feature ID 250: 0 {'yaml_represent'}
+Feature ID 251: 0 {'yaml_represent'}
+Feature ID 252: 0 {'yaml_represent', 'feature_generation'}
+Feature ID 253: 0 {'yaml_represent', 'graphdiffer'}
+Feature ID 254: 0 {'feature_generation', 'graphdiffer'}
+Feature ID 255: 0 {'clustering_utils', 'graphdiffer'}
+Feature ID 256: 0 {'graphdiffer'}
+Feature ID 257: 0 {'clustering_utils', 'graphdiffer'}
+Feature ID 258: 0 {'mapping', 'und_mapping'}
+Feature ID 259: 0 {'representation'}
+Feature ID 260: 0 {'method_summary', 'summary_repr'}
+Feature ID 261: 0 {'und_mapping'}
+Feature ID 262: 0 {'clustering_utils'}
+Feature ID 263: 0 {'function_clustering', 'clustering_utils'}
+Feature ID 264: 0 {'function_clustering', 'clustering_utils'}
+Feature ID 265: 0 {'function_clustering', 'clustering_utils'}
+Feature ID 266: 0 {'function_clustering', 'clustering_utils'}
+Feature ID 267: 0 {'feature_generation', 'clustering_utils'}
+Feature ID 268: 0 {'method_summary', 'clustering_utils'}
+Feature ID 269: 0 {'function_clustering', 'clustering_utils'}
+Feature ID 270: 0 {'function_clustering', 'clustering_utils'}
+Feature ID 271: 0 {'feature_generation'}
+Feature ID 272: 0 {'feature_generation'}
+Feature ID 273: 0 {'matrix_computation', 'feature_generation'}
+Feature ID 274: 0 {'feature_generation'}
+Feature ID 275: 0 {'function_clustering', 'feature_generation'}
+Feature ID 276: 0 {'file_clustering'}
+Feature ID 277: 0 {'function_clustering', 'method_summary'}
+Feature ID 278: 0 {'function_clustering'}
+Feature ID 279: 0 {'function_clustering'}
+Feature ID 280: 0 {'function_clustering'}
+Feature ID 281: 0 {'function_clustering'}
+Feature ID 282: 0 {'function_clustering', 'matrix_computation'}
+Feature ID: 1, Description: As a developer, I want to initialize a file output and a dependency database so that I can manage file operations and track dependencies in my project. The system should allow me to specify file paths, modes, and encodings for output operations, and it should also enable me to initialize a root directory for dependency analysis, including global dependency tracking and module/package tree initialization.
+Feature ID: 2, Description: As a developer, I want to analyze and summarize code functions and their similarities so that I can better understand the codebase and improve its organization. The system should allow me to compute similarity matrices between files based on their text vectors, generate function name summaries for better readability, and ensure that all outputs are immediately written and flushed to both files and standard output for real-time feedback.
+Feature ID: 3, Description: As a developer, I want to ensure that output streams are properly flushed and restored when exiting a context, so that I can maintain consistent and reliable output behavior in my application.
+Feature ID: 4, Description: As a developer, I want to ensure proper resource cleanup when working with file operations in the system, so that I can prevent resource leaks and maintain system stability.
+Feature ID: 5, Description: As a developer, I want to ensure that the TeeOutput class correctly handles output redirection and terminal detection so that I can manage stdout and stderr streams effectively in my application.
+Feature ID: 6, Description: As a software engineer, I want to analyze and summarize the functions and files in a project to understand their relationships and generate feature descriptions, so that I can better comprehend the project structure and functionality.
+Feature ID: 7, Description: As a system administrator, I want to initialize clusters with specific IDs, descriptions, and associated file or function lists so that I can organize and manage related files or functions efficiently within the system.
+Feature ID: 8, Description: As a developer, I want to initialize feature and location objects with specific attributes so that I can manage and utilize these objects effectively within the system.
+Feature ID: 9, Description: As a software engineer analyzing Python code, I want to be able to run static analysis on a Python project to extract structural information, control flow, and call graphs, so that I can understand the project's architecture and dependencies. The tool should allow me to specify the project root path, output directory, and various analysis options (profiling, control flow analysis, compatibility mode, builtins path, and call graph generation) either through command line arguments or direct Python function calls.
+Feature ID: 10, Description: As a software engineer analyzing code dependencies, I want to generate and save a call graph representation of a project's structure so that I can visualize and analyze the relationships between different entities and dependencies within the project. Additionally, I want to collect and summarize metadata about entities and dependencies to understand the composition and characteristics of the project's codebase.
+Feature ID: 11, Description: As a software engineer analyzing code dependencies, I want to analyze Python code structure and dependencies so that I can understand the relationships between modules and functions in a project. The system should provide detailed reports including dependency graphs, control flow analysis, and call graphs, and generate CSV files summarizing files, methods, and their adjacency matrices for further analysis.
+Feature ID: 12, Description: As a software engineer analyzing code structure, I want to generate a control flow graph (CFG) report from Python code summaries so that I can understand the module dependencies and syntax namespaces within the codebase.
+Feature ID: 13, Description: As a software engineer analyzing code, I want to extract specific lines of code from a file given its path and line numbers, so that I can analyze or manipulate the code segments efficiently. Additionally, I want to optionally calculate silhouette scores from similarity matrices to evaluate clustering quality, so that I can assess the effectiveness of my clustering algorithms.
+Feature ID: 14, Description: As a software engineer analyzing code structure, I want to extract method code from entities in a Python project so that I can analyze and understand the functionality of specific methods within the codebase. The system should allow me to extract code either by directly searching the package database or by using entity location information, ensuring flexibility and accuracy in retrieving the desired method implementations.
+Feature ID: 15, Description: As a software engineer, I want to analyze function signatures with their parameters from code so that I can understand the structure and dependencies of functions in a codebase.
+Feature ID: 16, Description: As a software engineer analyzing Python code, I want to initialize an expression analyzer and module scene to track and summarize module dependencies and typing entities, so that I can understand and manage the structure and relationships within the codebase.
+Feature ID: 17, Description: As a developer, I want to analyze Python AST expressions and patterns so that I can understand and manipulate the structure of Python code for static analysis or refactoring purposes.
+Feature ID: 18, Description: As a software engineer analyzing Python code, I want to traverse and analyze abstract syntax trees (AST) to understand expressions and statements, so that I can extract meaningful information about code structure and behavior.
+Feature ID: 19, Description: As a software engineer analyzing Python code, I want to understand how variable names and entities are processed and referenced in the codebase, so that I can accurately track dependencies and resolve references during static analysis.
+Feature ID: 20, Description: As a software engineer analyzing Python code, I want to evaluate attribute expressions and set comprehensions in abstract syntax trees (AST) so that I can understand and manipulate the structure and behavior of the code for further analysis or transformation.
+Feature ID: 21, Description: As a software developer, I want to analyze and track function calls and variable assignments in Python code so that I can understand dependencies and type information for better code maintenance and debugging.
+Feature ID: 22, Description: As a developer, I want to analyze and represent string constants in Python code so that I can understand and manipulate their values within the program's control flow.
+Feature ID: 23, Description: As a developer, I want to analyze and assign constant values and expressions in Python code so that I can accurately track and manage variable bindings and their types during static analysis.
+Feature ID: 24, Description: As a software engineer analyzing Python code, I want to analyze lambda expressions in the code to understand their structure and dependencies, so that I can accurately track function entities and their relationships in the codebase.
+Feature ID: 25, Description: As a developer analyzing Python code, I want to understand how list comprehensions and list expressions are processed so that I can accurately analyze and manipulate their abstract syntax tree (AST) representations.
+Feature ID: 26, Description: As a software engineer analyzing Python code, I want to evaluate dictionary comprehensions and dictionary expressions so that I can understand their structure and behavior within the codebase.
+Feature ID: 27, Description: As a software engineer analyzing Python code, I want to evaluate generator expressions and subscript operations in abstract syntax trees (AST) so that I can understand and manipulate the code structure for static analysis purposes.
+Feature ID: 28, Description: As a developer analyzing Python code, I want to evaluate binary operations and tuple expressions in abstract syntax trees (AST) so that I can understand their structure and behavior for static analysis purposes. The system should analyze binary operations by evaluating both left and right operands separately, and handle tuple expressions by processing their elements as an iterable collection.
+Feature ID: 29, Description: As a developer analyzing Python code, I want to analyze generator expressions and create temporary variables during code analysis so that I can accurately track variable usage and control flow in the code.
+Feature ID: 30, Description: As a developer, I want to analyze and track value flows between different storage entities in my codebase so that I can understand and manage data dependencies and movements effectively.
+Feature ID: 31, Description: As a software engineer analyzing code dependencies, I want to create references between entities based on their context (usage, call, or set) and manage entity storage, so that I can accurately track and analyze relationships and dependencies within the codebase.
+Feature ID: 32, Description: As a software engineer analyzing Python code, I want to analyze iterable expressions and create class summaries so that I can understand and manage the structure and behavior of the code.
+Feature ID: 33, Description: As a developer, I want to analyze Python expressions and retrieve value information so that I can understand and manipulate the code structure effectively.
+Feature ID: 34, Description: As a developer, I want to retrieve built-in Python functions and analyze value flows between variables so that I can understand and debug the behavior of my code.
+Feature ID: 35, Description: As a developer, I want to retrieve class information from built-in modules and manage class context within a scope, so that I can accurately analyze and manipulate Python code structures.
+Feature ID: 36, Description: As a software engineer analyzing Python code, I want to extend known or newly created attributes for different entity types (Instance, Constructor, Module, Package, Any) so that I can accurately track and manage attribute references in the codebase.
+Feature ID: 37, Description: As a software engineer analyzing Python code, I want to process known or newly created attributes of entities so that I can accurately track and manage dependencies between different parts of the codebase.
+Feature ID: 38, Description: As a developer analyzing Python code structure, I want to filter out non-settable entities and compare nodes for equivalence, so that I can accurately analyze and map code entities for structural understanding and dependency mapping.
+Feature ID: 39, Description: As a software engineer analyzing Python code structure, I want to track module dependencies and visibility during static analysis so that I can understand the relationships and hierarchy between different modules in a project.
+Feature ID: 40, Description: As a software engineer, I want to manage module resolution and stack operations efficiently so that I can ensure proper module handling and resolution in the system.
+Feature ID: 41, Description: As a developer, I want to track and manage the modules being processed in the system so that I can ensure no module is processed more than once and maintain the integrity of the analysis process.
+Feature ID: 42, Description: As a developer, I want to track the completion status of modules and retrieve built-in module information so that I can manage module dependencies and ensure proper module loading in the system.
+Feature ID: 43, Description: As a software engineer analyzing Python modules, I want to initialize and manage module dependencies and structures so that I can efficiently analyze and track dependencies within a project.
+Feature ID: 44, Description: As a system administrator, I want to ensure that entities are uniquely identified and managed within the module and global databases, so that I can maintain data integrity and avoid duplicates.
+Feature ID: 45, Description: As a developer, I want to analyze Python code structure and references so that I can understand and manage dependencies and attributes within the codebase.
+Feature ID: 46, Description: As a software engineer, I want to parse and analyze Python module files to extract their abstract syntax tree (AST) representation, so that I can perform further code analysis and understanding.
+Feature ID: 47, Description: As a developer, I want to retrieve module-level bindings so that I can analyze and understand the relationships between different entities within a module.
+Feature ID: 48, Description: As a software engineer analyzing Python codebases, I want to initialize and manage a tree structure of Python modules and packages, so that I can efficiently analyze dependencies and relationships within the codebase.
+Feature ID: 49, Description: As a developer, I want to check if a module or package exists in the system and retrieve its entity, so that I can analyze or manage it within the software system. Additionally, I want to verify if a module needs to be analyzed based on its processing status, so that I can optimize the analysis workflow.
+Feature ID: 50, Description: As a developer, I want to merge package databases so that I can consolidate dependency analysis results from different packages into a single unified database for comprehensive analysis.
+Feature ID: 51, Description: As a software engineer, I want to analyze and initialize the directory structure of a Python project so that I can identify and manage packages and dependencies within the project.
+Feature ID: 52, Description: As a software engineer analyzing Python code, I want the system to analyze and resolve dependencies between modules so that I can understand the structure and visibility of entities within the codebase. This includes identifying ambiguous dependencies and ensuring proper visibility of entities across modules.
+Feature ID: 53, Description: As a software engineer, I want to analyze Python modules recursively to identify dependencies and track module imports, so that I can ensure comprehensive code analysis and avoid redundant processing of already imported modules.
+Feature ID: 54, Description: As a software engineer analyzing Python code, I want to analyze the top-level statements in a module to understand its structure and dependencies, so that I can build a comprehensive summary of the module's contents and relationships.
+Feature ID: 55, Description: As a developer, I want to manage and add built-in bindings to a module's scope so that I can ensure the module has access to necessary built-in functionalities and maintain consistent binding references across the system.
+Feature ID: 56, Description: As a software engineer analyzing Python code, I want to analyze built-in modules and statements within a codebase so that I can understand the structure and dependencies of the code for better maintenance and refactoring.
+Feature ID: 57, Description: As a developer, I want to analyze and manage module imports in a Python project so that I can understand dependencies and resolve unknown modules effectively. The system should allow me to import modules with strict analysis, handle package structures, and manage unknown modules by providing clear references and paths.
+Feature ID: 58, Description: As a software developer, I want to analyze and summarize Python modules to understand their structure and dependencies, so that I can efficiently manage and document the codebase.
+Feature ID: 59, Description: As a software engineer, I want to resolve module aliases to their corresponding file paths so that I can accurately analyze and manage dependencies within a Python project.
+Feature ID: 60, Description: As a software engineer, I want to manage module summaries and references efficiently so that I can maintain and analyze code dependencies accurately.
+Feature ID: 61, Description: As a software engineer analyzing code, I want to generate and resolve function summaries so that I can understand and manage the structure and behavior of functions within the codebase. This involves creating summaries for functions and applying resolution rules to these summaries to ensure accurate analysis.
+Feature ID: 62, Description: As a developer, I want to retrieve and manage bindings from built-in functions so that I can efficiently analyze and manipulate abstract values in my code.
+Feature ID: 63, Description: As a developer, I want to resolve module imports and validate module rules so that I can ensure the correct dependencies are loaded and the module's rules are satisfied during analysis.
+Feature ID: 64, Description: As a software engineer analyzing code structure, I want to check if a file path exists within the project's root database and retrieve environment-specific lookup results, so that I can efficiently manage and analyze code dependencies and structures.
+Feature ID: 65, Description: As a software engineer analyzing Python code, I want to resolve module import paths and analyze import statements so that I can accurately track dependencies and bindings between modules.
+Feature ID: 66, Description: As a developer, I want to analyze and initialize abstract classes and their methods in Python code, so that I can understand and manage class inheritance and method implementations effectively.
+Feature ID: 67, Description: As a software engineer analyzing Python code, I want to initialize method analysis parameters and track function properties so that I can accurately analyze and document method behaviors and characteristics.
+Feature ID: 68, Description: As a software developer, I want to analyze Python code to identify abstract methods, static methods, properties, and private attributes within classes so that I can understand the structure and behavior of the codebase for maintenance or enhancement purposes.
+Feature ID: 69, Description: As a developer, I want to analyze Python code to identify abstract methods and track NotImplementedError exceptions so that I can understand the structure and behavior of the codebase, particularly focusing on abstract constructors and methods that are not implemented.
+Feature ID: 70, Description: As a software developer, I want to analyze Python code structure and dependencies so that I can understand module relationships and function invocations within the codebase. The system should allow me to track module hierarchies, function calls, and their arguments to support comprehensive code analysis and summary generation.
+Feature ID: 71, Description: As a software engineer analyzing Python code, I want to analyze function definitions and their parameters to understand their structure and dependencies, so that I can build a comprehensive summary of the codebase for further analysis or documentation.
+Feature ID: 72, Description: As a developer, I want to analyze Python function definitions (both synchronous and asynchronous) to extract their structural information, including their names, arguments, bodies, decorators, and return annotations, so that I can understand and document the codebase's functionality and dependencies.
+Feature ID: 73, Description: As a software engineer, I want to analyze and set method information for a function definition so that I can accurately determine its abstract and static properties, as well as its readonly property name. Additionally, I want to manage class inheritance by adding base classes to ensure proper inheritance relationships are maintained.
+Feature ID: 74, Description: As a software developer, I want to analyze and document the structure of Python class definitions in my codebase so that I can understand class hierarchies, dependencies, and attributes for better code maintenance and refactoring.
+Feature ID: 75, Description: As a software developer, I want to analyze Python code's control flow structures, such as if-statements, so that I can understand and verify the program's behavior under different conditions. This includes analyzing the test condition, evaluating the body of the if-statement, and handling any else branches to ensure accurate scope management and environment transitions.
+Feature ID: 76, Description: As a developer, I want to analyze Python 'For' loop statements and resolve referenced attributes in the code so that I can understand and manage dependencies and references within the codebase effectively.
+Feature ID: 77, Description: As a software engineer analyzing Python code, I want to analyze assignment and augmented assignment statements in Python AST (Abstract Syntax Tree) so that I can understand and process variable assignments and their values within the code.
+Feature ID: 78, Description: As a developer, I want to analyze annotated assignments in Python code so that I can understand and process type annotations and their relationships within the codebase.
+Feature ID: 79, Description: As a developer analyzing Python code, I want the system to evaluate expressions and 'with' statements in the code so that I can understand the semantic relationships and dependencies within the codebase. The system should analyze expressions to determine their values and evaluate 'with' statements to handle context management and variable assignments correctly.
+Feature ID: 80, Description: As a software engineer analyzing Python code, I want to process assignment statements and build attribute dictionaries from code entities so that I can understand and manage the relationships and references within the codebase.
+Feature ID: 81, Description: As a software engineer analyzing Python code, I want to understand and manage module imports and their aliases so that I can accurately track dependencies and references in the codebase.
+Feature ID: 82, Description: As a software developer, I want to analyze Python code structures, specifically 'try' and 'return' statements, so that I can understand and manage the control flow and error handling within the code. The system should process 'try' blocks by analyzing the main body, handlers, 'else' clauses, and 'finally' blocks, combining their environments appropriately. For 'return' statements, the system should evaluate the return value and update the scope builder with the return information.
+Feature ID: 83, Description: As a software engineer analyzing Python code, I want to analyze top-level statements in a Python AST (Abstract Syntax Tree) to understand their structure and dependencies, so that I can build a summary of the code's entities and their relationships.
+Feature ID: 84, Description: As a developer, I want to analyze Python code semantically so that I can understand and handle errors in the code effectively.
+Feature ID: 85, Description: As a software engineer analyzing Python code, I want to analyze statements and build ambiguous attributes so that I can understand and manage the code structure effectively.
+Feature ID: 86, Description: As a software developer, I want to analyze and process function parameters in Python code so that I can accurately track parameter definitions, their types, and their relationships within the function scope. This helps in understanding the function's behavior and its interactions with other entities in the codebase.
+Feature ID: 87, Description: As a developer, I want to create proper aliases for modules and packages so that I can manage and reference them efficiently in my codebase.
+Feature ID: 88, Description: As a developer, I want to analyze Python code structure to understand attribute and lvalue patterns so that I can effectively manipulate or inspect code elements during static analysis.
+Feature ID: 89, Description: As a developer analyzing Python code, I want to process and transform list and tuple elements into structured targets so that I can analyze and understand the data flow within the code.
+Feature ID: 90, Description: As a developer analyzing Python code, I want to understand the structure and relationships within the codebase so that I can effectively navigate and modify the system. The code provides functionality to visit and analyze starred expressions (like *args) and determine the kind of entity (e.g., Class) within the codebase, enabling me to track dependencies and understand the code's architecture.
+Feature ID: 91, Description: As a software engineer analyzing Python code, I want to be able to build and unpack semantic targets from abstract syntax trees (AST) so that I can accurately analyze and assign values to entities in the code.
+Feature ID: 92, Description: As a developer, I want to analyze and understand the structure of Python code so that I can effectively work with and modify the codebase. This includes being able to unpack and analyze abstract values and retrieve the long names of entities within the code.
+Feature ID: 93, Description: As a developer, I want to analyze and summarize Python code structures so that I can understand and manage complex codebases more effectively.
+Feature ID: 94, Description: As a software engineer analyzing code semantics, I want to assign semantic information to target entities or newly created bindings so that I can accurately track and manage variable bindings and their types within the code analysis context.
+Feature ID: 95, Description: As a developer analyzing Python code, I want the system to accurately track and manage newly defined variables and class attributes so that I can understand the structure and dependencies within the codebase. The system should handle variable definitions within different contexts (e.g., class attributes, local variables) and record references to these entities for further analysis.
+Feature ID: 96, Description: As a software engineer analyzing Python code, I want to compress abstract values and handle errors during analysis so that I can efficiently manage and process entity information within the codebase. The compress_abstract_value function helps by consolidating entity types into a more manageable format, while the abstract_capture function ensures that errors during analysis are properly captured and processed, maintaining the integrity of the analysis context.
+Feature ID: 97, Description: As a developer analyzing Python code, I want to assign values to target expressions and retrieve module objects so that I can perform semantic analysis and understand the structure of the code.
+Feature ID: 98, Description: As a developer, I want to analyze and summarize code structures so that I can understand and document the relationships and behaviors within the codebase.
+Feature ID: 99, Description: As a software engineer, I want to initialize and manage entities and their environments within a code analysis system so that I can accurately track and analyze dependencies and scopes in the codebase.
+Feature ID: 100, Description: As a developer, I want to retrieve found entities from a SubEnvLookupResult object and access class attributes dynamically so that I can analyze and manipulate the entities and their attributes efficiently.
+Feature ID: 101, Description: As a developer, I want to check if a specific name exists in a sub-environment and verify its presence so that I can ensure the required dependencies or components are available before proceeding with further operations.
+Feature ID: 102, Description: As a software engineer, I want to manage and combine sub-environments within a parallel processing system so that I can efficiently organize and execute parallel tasks.
+Feature ID: 103, Description: As a developer, I want to create and manage sub-environments with continuous bindings so that I can organize and maintain the scope and bindings of variables and functions within different parts of the codebase.
+Feature ID: 104, Description: As a software engineer, I want to initialize and manage bindings and module summaries so that I can effectively analyze and structure code dependencies.
+Feature ID: 105, Description: As a developer, I want to efficiently retrieve and manage environment bindings and locations so that I can accurately track and manipulate the scope and context of my code.
+Feature ID: 106, Description: As a software engineer, I want to initialize parallel sub-environments and variables with their respective scopes and locations so that I can manage and analyze code structures effectively.
+Feature ID: 107, Description: As a developer, I want to efficiently look up and manage entities in parallel sub-environments so that I can handle ambiguous attributes and ensure accurate entity resolution.
+Feature ID: 108, Description: As a developer, I want to create continuous bindings for sub-environments so that I can manage and link environment states effectively.
+Feature ID: 109, Description: As a developer analyzing Python code, I want to understand the behavior of identifier resolution in nested environments and the classification of anonymous functions so that I can accurately analyze and document the structure and dependencies of the codebase.
+Feature ID: 110, Description: As a software developer, I want to initialize and manage environment and class structures in my code so that I can maintain organized and hierarchical data representations for analysis and processing. The OptionalSubEnv initialization allows me to create nested environments with depth tracking, while the ClassSummary initialization provides a structured way to store class-related data including rules, children modules, namespaces, and corresponding objects.
+Feature ID: 111, Description: As a software developer, I want to analyze and manage Python code structure and dependencies so that I can understand and maintain the codebase effectively. The system should allow me to track function definitions, variable assignments, and their scope environments to ensure accurate code analysis and debugging.
+Feature ID: 112, Description: As a software engineer, I want to manage and manipulate scope environments and entity references in code analysis so that I can accurately track and modify program structures and relationships.
+Feature ID: 113, Description: As a developer, I want to retrieve the location of a scope and get a string representation of a heap object so that I can analyze and debug the scope and heap object in my code.
+Feature ID: 114, Description: As a developer, I want to retrieve hooks and invokes from the system so that I can analyze and understand the behavior and interactions within the codebase.
+Feature ID: 115, Description: As a software engineer analyzing Python code, I want to understand and manage class contexts and scopes within a codebase so that I can accurately track and manipulate class attributes, inheritance, and method hooks for better code analysis and maintenance.
+Feature ID: 116, Description: As a developer analyzing Python code structure, I want to retrieve class attributes and their builders so that I can understand and manipulate the code's namespace and object relationships.
+Feature ID: 117, Description: As a developer working with scope environments in Python, I want to be able to remove and retrieve the most recently added sub-environment from a scope or entity environment so that I can manage nested environments efficiently during code analysis.
+Feature ID: 118, Description: As a developer, I want to analyze the scope and entity environments in Python code so that I can understand the structure and relationships within the codebase. Specifically, I need to determine the number of sub-environments within a scope and retrieve entities by name from the environment hierarchy to facilitate accurate code analysis and navigation.
+Feature ID: 119, Description: As a developer, I want to retrieve the context entity from a scope or environment so that I can access the necessary contextual information for analysis or processing.
+Feature ID: 120, Description: As a developer, I want to efficiently retrieve and manage entity definitions and their references within a scope, so that I can accurately analyze and manipulate the codebase structure.
+Feature ID: 121, Description: As a developer, I want to manage and analyze continuous bindings in a scope environment so that I can ensure non-duplicate entries and maintain consistency in the environment. As a developer, I want to add return statements to a function summary so that I can track and manage return values and their associated expressions.
+Feature ID: 122, Description: As a developer, I want to retrieve the scope of an entity or environment so that I can understand and manipulate the hierarchical structure of the codebase.
+Feature ID: 123, Description: As a developer, I want to manage scope environments within an entity environment so that I can organize and track different scopes of analysis effectively.
+Feature ID: 124, Description: As a developer, I want to manage scope environments and entity dependencies so that I can maintain accurate and efficient code analysis.
+Feature ID: 125, Description: As a developer, I want to analyze class inheritance and context in Python code so that I can understand the structure and relationships within the codebase.
+Feature ID: 126, Description: As a developer, I want to be able to join two ValueInfo objects so that I can combine their information for analysis.
+Feature ID: 127, Description: As a developer, I want to initialize class instances with specific attributes so that I can manage and manipulate class-related data effectively.
+Feature ID: 128, Description: As a developer, I want to be able to look up attributes of a class or constructor so that I can analyze and understand the structure and behavior of the code.
+Feature ID: 129, Description: As a developer, I want to analyze and understand the structure of Python code, so that I can effectively work with class instances and their corresponding objects.
+Feature ID: 130, Description: As a developer, I want to ensure that when joining two ValueInfo objects, the system correctly handles the combination based on their types, so that I can maintain type consistency and avoid runtime errors.
+Feature ID: 131, Description: As a developer analyzing Python code structure, I want to initialize module and package types with their respective namespaces, and maintain a dependency database of entities, so that I can systematically analyze and manage dependencies within the codebase.
+Feature ID: 132, Description: As a developer, I want to access namespace information from different module and package types so that I can understand and manipulate the structure of the codebase.
+Feature ID: 133, Description: As a developer, I want to join two ValueInfo objects so that I can combine their information into a single ValueInfo object.
+Feature ID: 134, Description: As a software engineer analyzing code dependencies, I want to initialize and manage call graphs and graph differencing tools so that I can effectively analyze and compare code structures.
+Feature ID: 135, Description: As a developer analyzing code dependencies, I want to track function calls between entities so that I can understand the call graph structure and dependencies within the codebase.
+Feature ID: 136, Description: As a software engineer analyzing code structure, I want to compare and update sets of heap objects and locations so that I can ensure accurate and efficient analysis of code dependencies and scopes.
+Feature ID: 137, Description: As a developer, I want to be able to retrieve member attributes from heap and instance objects so that I can analyze and manipulate object properties dynamically.
+Feature ID: 138, Description: As a developer, I want to be able to write and initialize fields in a structured manner so that I can manage and manipulate data efficiently within the system.
+Feature ID: 139, Description: As a developer analyzing Python code structure, I want to retrieve the namespace information from different code objects (such as modules or heap objects) so that I can understand and analyze the hierarchical organization and scope of these objects within the codebase.
+Feature ID: 140, Description: As a developer, I want to retrieve member information from a namespace so that I can access and manipulate specific data within a module or instance method.
+Feature ID: 141, Description: As a developer, I want to ensure that field updates in various heap objects are consistently handled and validated, so that the system maintains data integrity and prevents unauthorized or inconsistent modifications.
+Feature ID: 142, Description: As a developer analyzing Python code structure, I want to retrieve the namespace of different heap objects (Module, Class, Instance, Function) so that I can understand and analyze the scope and context of these objects within the codebase.
+Feature ID: 143, Description: As a developer, I want to ensure that all heap objects (Module, Class, Function, Indexable, ConstantInstance) and summary objects (File, Class, Function) in the system have a unique hash value based on their memory address, so that I can reliably use these objects in hash-based data structures like dictionaries or sets.
+Feature ID: 144, Description: As a developer, I want to be able to represent different types of heap objects (modules, classes, functions, and method references) in a standardized string format, so that I can easily identify and debug these objects during runtime.
+Feature ID: 145, Description: As a software engineer analyzing code structure, I want to retrieve class members and identify ambiguous attributes so that I can understand and manage class hierarchies and attribute references effectively.
+Feature ID: 146, Description: As a developer, I want to ensure that objects in the system can be uniquely identified and compared using their hash values so that I can efficiently manage and organize these objects in data structures like sets or dictionaries. This is facilitated by implementing the `__hash__` method for different object types, which generates a hash based on their key attributes (e.g., class and invocation details for `InstanceObject`, or line and column spans for `Span`).
+Feature ID: 147, Description: As a developer, I want to compare instances of objects to ensure they are equivalent based on their class and attributes, so that I can verify object equality in my application logic.
+Feature ID: 148, Description: As a developer, I want to understand the representation of heap objects in the system so that I can debug and analyze memory usage effectively.
+Feature ID: 149, Description: As a developer, I want to analyze and summarize function members and module structures in Python code so that I can understand and document the codebase effectively.
+Feature ID: 150, Description: As a developer analyzing Python code structure, I want to generate consistent hash values for method references and entity locations so that I can uniquely identify and compare these elements within the codebase.
+Feature ID: 151, Description: As a developer, I want to compare method references and node similarities in the codebase so that I can ensure consistency and accuracy in code analysis and refactoring.
+Feature ID: 152, Description: As a developer, I want to retrieve member attributes from class instances so that I can access and manipulate object properties dynamically.
+Feature ID: 153, Description: As a developer working with class instances, I want to retrieve attributes from class instances dynamically, so that I can access and manipulate instance-specific data and methods efficiently.
+Feature ID: 154, Description: As a developer analyzing Python code structure, I want to verify if two objects share the same reference and check if an object is of a specific type so that I can accurately analyze and understand the relationships and types within the codebase.
+Feature ID: 155, Description: As a developer, I want to identify specific function types (dict updates and list appends) in Python code so that I can analyze and understand the behavior of these functions in my software system.
+Feature ID: 156, Description: As a developer, I want to retrieve entity information from different module summaries (Module, Class, Function) so that I can analyze and understand the structure of the codebase.
+Feature ID: 157, Description: As a software engineer analyzing Python code structure, I want to define and apply rules for module analysis so that I can systematically process and store module information for structural analysis.
+Feature ID: 158, Description: As a developer, I want to analyze module structures in Python code so that I can understand the organization and dependencies within the codebase.
+Feature ID: 159, Description: As a developer, I want to manage module hierarchies and references within a codebase so that I can maintain and analyze the structure of the software system effectively.
+Feature ID: 160, Description: As a developer analyzing Python code structure, I want to retrieve the names of various code entities (modules, classes, functions, parameters, etc.) so that I can understand and navigate the codebase more effectively.
+Feature ID: 161, Description: As a software engineer analyzing module structures, I want to generate a formatted summary of module rules and their associated objects so that I can easily review and understand the module's structure and dependencies.
+Feature ID: 162, Description: As a developer analyzing code structure, I want to retrieve the list of rules associated with different code elements (files, classes, functions) so that I can understand and enforce coding standards or analyze dependencies within the codebase.
+Feature ID: 163, Description: As a developer, I want to add child modules or classes to a parent module or class so that I can organize and structure my code hierarchically.
+Feature ID: 164, Description: As a developer, I want to retrieve module entities and their corresponding objects so that I can analyze and manipulate the module structure effectively.
+Feature ID: 165, Description: As a developer, I want to retrieve the namespace of different types of summaries (file, class, function) so that I can understand and organize the structure of the codebase.
+Feature ID: 166, Description: As a developer, I want to retrieve the syntax namespace from different types of summaries (File, Class, Function) so that I can analyze and understand the structure of the codebase.
+Feature ID: 167, Description: As a software developer analyzing Python code, I want to retrieve module and class summaries along with their attributes so that I can understand the structure and dependencies of the codebase.
+Feature ID: 168, Description: As a developer, I want to retrieve and manage function objects and their return values so that I can effectively analyze and manipulate function behaviors within the codebase.
+Feature ID: 169, Description: As a developer, I want to manage and modify indexable objects (like dictionaries and lists) within the system so that I can ensure data consistency and proper updates when performing operations like dictionary updates or list appends. The system should handle these modifications by checking the types of objects involved and updating their contents only if the new elements are not already present.
+Feature ID: 170, Description: As a developer analyzing Python code structure, I want to retrieve the syntax location of various code elements (such as variables, parameters, field accesses, index accesses, and invocations) so that I can accurately map and analyze their positions within the source code.
+Feature ID: 171, Description: As a developer, I want to initialize objects with specific attributes and behaviors so that I can manage and manipulate data structures effectively within the system.
+Feature ID: 172, Description: As a developer analyzing Python code structure, I want to view string representations of temporary and package entities so that I can easily identify and differentiate them during code analysis.
+Feature ID: 173, Description: As a developer, I want to retrieve variable names and line numbers from code analysis so that I can understand and navigate the codebase more effectively.
+Feature ID: 174, Description: As a developer, I want to understand the string representation of various code elements (local variables, class values, class attributes, and class inheritance) so that I can easily debug and analyze the structure of the code.
+Feature ID: 175, Description: As a developer, I want to be able to view string representations of parameter and outer variable objects so that I can easily debug and understand their values during runtime.
+Feature ID: 176, Description: As a developer analyzing Python code structure, I want to retrieve the name and ID of variables and entities in the code so that I can understand and document the structure and relationships within the codebase.
+Feature ID: 177, Description: As a developer analyzing Python code structure, I want to retrieve attribute information from classes and their inheritance hierarchy so that I can understand the relationships and dependencies between different parts of the codebase.
+Feature ID: 178, Description: As a developer analyzing Python code structure, I want to index and summarize module dependencies so that I can understand and navigate the codebase more effectively. The system should allow me to create temporary lists for indexing and provide clear names for index access operations to facilitate code analysis.
+Feature ID: 179, Description: As a developer, I want to be able to represent functional values and constants in a readable format so that I can easily debug and understand the state of the system during development.
+Feature ID: 180, Description: As a developer analyzing Python module structures, I want to view string representations of module constants and list objects so that I can easily identify and understand the components within the module tree.
+Feature ID: 181, Description: As a developer, I want to manage and track store-able objects (like parameters, variables, and temporaries) in a structured way so that I can efficiently analyze and manipulate them during code processing.
+Feature ID: 182, Description: As a software engineer working on class inheritance analysis, I want to add base classes to a class and resolve inheritance relationships so that I can accurately analyze and represent class hierarchies in the system.
+Feature ID: 183, Description: As a developer working with field access and return value resolution in a Python code analysis tool, I want to load field accesses and resolve return values accurately so that I can ensure proper behavior and context handling in the code analysis process.
+Feature ID: 184, Description: As a developer, I want to analyze and manipulate index accesses in Python code so that I can understand and modify how data is accessed and stored within the codebase.
+Feature ID: 185, Description: As a developer analyzing Python code, I want to track and resolve index accesses in the code so that I can understand how data is being accessed and manipulated within the codebase. This involves loading index lvalues and abstractly resolving them to their corresponding heap objects, which helps in building a comprehensive summary of the code's structure and behavior.
+Feature ID: 186, Description: As a developer, I want to add child modules to a summary structure and manage references within a package so that I can organize and analyze code dependencies effectively.
+Feature ID: 187, Description: As a software engineer, I want to analyze and manage Python code structures, including variables, classes, modules, and their references, so that I can understand and manipulate the codebase effectively.
+Feature ID: 188, Description: As a software engineer, I want to analyze and manipulate object slots in a Python codebase to determine object types and their relationships, so that I can accurately resolve and index objects for further analysis or processing.
+Feature ID: 189, Description: As a developer, I want to analyze and resolve object calls in Python code so that I can accurately track object interactions and method invocations for better code understanding and debugging.
+Feature ID: 190, Description: As a developer working with object resolution and indexing, I want to efficiently filter and store indexable objects based on specific expressions and conditions, so that I can manage and access relevant objects in a structured manner.
+Feature ID: 191, Description: As a software developer, I want to analyze module dependencies and resolve them in a structured manner so that I can understand and manage the calling relationships between modules effectively.
+Feature ID: 192, Description: As a software engineer, I want to analyze and resolve module dependencies in a chaotic system so that I can ensure all modules are properly resolved and dependencies are satisfied. Additionally, I want to measure the separation between clusters in a graph to evaluate the quality of clustering, so that I can assess the effectiveness of the clustering algorithm.
+Feature ID: 193, Description: As a software engineer, I want to resolve different types of rules and object interactions in a code analysis system so that I can accurately track and manage data flows, function returns, and object relationships within the codebase.
+Feature ID: 194, Description: As a software engineer analyzing code dependencies, I want to resolve value flows between different namespaces in the code so that I can accurately track how data moves between variables, parameters, and fields within the program. This helps me understand the program's data flow and identify potential issues or optimizations.
+Feature ID: 195, Description: As a developer, I want to analyze and manipulate Python code structures dynamically so that I can understand and modify field accesses and class instantiations within the codebase. This includes storing field values and handling class calls to ensure proper object initialization and method execution.
+Feature ID: 196, Description: As a software engineer, I want to analyze and store abstract representations of code structures so that I can efficiently manage and manipulate complex codebases. This involves resolving and storing abstract code elements and computing relationships between method clusters to understand dependencies and interactions within the code.
+Feature ID: 197, Description: As a software engineer, I want to analyze and resolve abstract function calls in Python code so that I can understand and manipulate the behavior of functions, classes, and variables within a namespace.
+Feature ID: 198, Description: As a software developer, I want to analyze and resolve function calls in Python code so that I can understand the relationships and dependencies between different parts of the codebase. This involves tracking positional and keyword arguments, handling variable parameters, and updating the call graph to reflect these interactions.
+Feature ID: 199, Description: As a developer, I want to resolve and map objects in a Python codebase so that I can analyze and understand the structure and control flow of the code. This involves resolving additions to lists and mapping heap objects to their corresponding entities, enabling me to track variable usage and object relationships within the code.
+Feature ID: 200, Description: As a software engineer analyzing Python code, I want to resolve constant objects (functions, classes, modules) from their storage representations so that I can accurately analyze and summarize the code structure.
+Feature ID: 201, Description: As a software engineer analyzing Python code, I want to resolve and retrieve stored values from various types of storage entities (like variables, constants, and field accesses) so that I can accurately analyze and understand the code's behavior and dependencies.
+Feature ID: 202, Description: As a developer, I want to retrieve class attributes from a given entity so that I can analyze and understand the structure of the class for further development or debugging purposes.
+Feature ID: 203, Description: As a developer analyzing Python code structure, I want to retrieve the name of an entity and its syntactic node information so that I can understand the structure and relationships within the codebase.
+Feature ID: 204, Description: As a developer, I want to ensure that entities in the system can be uniquely identified and compared based on their long names and locations, so that I can maintain data integrity and consistency when working with entity collections.
+Feature ID: 205, Description: As a developer, I want to analyze and manipulate data structures efficiently so that I can optimize performance and ensure data integrity. Specifically, I need to handle span objects and apply threshold-based sparsification to matrices to simplify data processing and improve computational efficiency.
+Feature ID: 206, Description: As a developer, I want to analyze and track syntactic spans and references in Python code so that I can understand and manage code structure and dependencies effectively.
+Feature ID: 207, Description: As a software developer analyzing Python code, I want to extract syntactic and dependency information from the code structure so that I can understand and visualize the relationships between different entities in the codebase. The system should provide me with the ability to retrieve the syntactic head of an AST node and convert dependency representations into a JSON format for further analysis or visualization.
+Feature ID: 208, Description: As a developer analyzing Python code structure, I want to retrieve detailed entity information such as scope and kind so that I can understand the relationships and roles of different entities within the codebase.
+Feature ID: 209, Description: As a developer, I want to analyze and cluster files based on their labels so that I can organize and manage them efficiently. The system should allow me to assign global names to locations and group files into clusters based on provided labels, facilitating better file organization and retrieval.
+Feature ID: 210, Description: As a developer, I want to access file paths and dump statistics to a CSV file so that I can analyze and manage code structure data efficiently.
+Feature ID: 211, Description: As a developer, I want to create and manage unique entities with references and locations so that I can track and analyze the structure of my codebase effectively.
+Feature ID: 212, Description: As a software engineer, I want to analyze and summarize the structure of a codebase by extracting file information and references, so that I can understand the relationships and dependencies within the code.
+Feature ID: 213, Description: As a developer analyzing Python code structure, I want to determine the kind of entity (e.g., UnknownVar or Anonymous) in the codebase so that I can accurately categorize and understand different code elements for structural analysis.
+Feature ID: 214, Description: As a developer, I want to analyze the direct type of entities in the system so that I can understand their behavior and relationships.
+Feature ID: 215, Description: As a developer analyzing code structure, I want to retrieve the scope of a variable or parameter so that I can understand its context and usage within the codebase.
+Feature ID: 216, Description: As a developer analyzing Python code structure, I want to identify the kind of entities (such as functions or packages) in the codebase so that I can understand the organization and dependencies within the project.
+Feature ID: 217, Description: As a developer, I want to initialize LambdaFunction and LambdaParameter entities with their respective long names and locations so that I can properly manage and reference these entities within the system.
+Feature ID: 218, Description: As a developer, I want to initialize and manage package entities and their aliases in a Python codebase so that I can accurately track and reference packages and their alternative names within the system.
+Feature ID: 219, Description: As a software engineer analyzing Python code, I want to initialize module entities with their file paths and optional hard-coded longnames, so that I can accurately represent and analyze the structure of Python modules in a codebase.
+Feature ID: 220, Description: As a developer, I want to determine the kind of entity (module or built-in module) in the system so that I can accurately categorize and manage different types of modules within the software architecture.
+Feature ID: 221, Description: As a developer, I want to retrieve the long name of a module so that I can accurately identify and reference it within the codebase.
+Feature ID: 222, Description: As a developer, I want to determine the type of a module (either a standard module or a built-in module) so that I can correctly handle and process module entities in my code analysis tool.
+Feature ID: 223, Description: As a developer, I want to create and manage module aliases and unknown modules in a Python project so that I can organize and reference modules efficiently within the codebase.
+Feature ID: 224, Description: As a developer, I want to retrieve the longname of a module or package from its path so that I can uniquely identify and reference it within the system.
+Feature ID: 225, Description: As a developer, I want to identify and categorize different types of aliases in the codebase so that I can better understand and manage the relationships between modules and packages.
+Feature ID: 226, Description: As a software developer analyzing Python code, I want to resolve ambiguous attribute references in the codebase so that I can accurately track dependencies and understand the structure of the code. This involves identifying and resolving references to attributes that may be ambiguous due to dynamic or complex scoping rules, ensuring that the analysis reflects the actual behavior of the code.
+Feature ID: 227, Description: As a developer, I want to analyze the direct type of a class and the kind of a lambda parameter so that I can understand the structure and behavior of the code I am working with.
+Feature ID: 228, Description: As a developer, I want to check if a method can be implemented in a class and verify if modifiers exist, so that I can ensure proper method implementation and modifier validation in my code.
+Feature ID: 229, Description: As a developer, I want to manage unknown variables in the system so that I can handle undefined or dynamically generated variables efficiently. The system should allow me to create and retrieve unknown variables by name, ensuring that each variable is uniquely identified and stored for future reference.
+Feature ID: 230, Description: As a developer analyzing Python code, I want to determine the kind of entity (class attribute or unresolved attribute) from the code structure so that I can accurately categorize and analyze the code components.
+Feature ID: 231, Description: As a developer analyzing Python code structure, I want the system to handle unresolved and ambiguous attribute references during code analysis so that I can accurately track and resolve attribute dependencies in the codebase. This includes creating unresolved attributes when no matching attribute is found, linking to ambiguous attributes when multiple possibilities exist, and directly referencing resolved attributes when unambiguous matches are available.
+Feature ID: 232, Description: As a developer analyzing code structure, I want to identify and categorize entities (modules, functions, classes, instance methods) and their modifiers (abstract, static, readonly, private) so that I can understand the architecture and design patterns used in the codebase.
+Feature ID: 233, Description: As a software engineer analyzing code dependencies, I want to aggregate control flow information and write dependencies from comments so that I can understand and manage the relationships and interactions between different code entities effectively.
+Feature ID: 234, Description: As a developer, I want to access the package database (RootDB) from different parts of the system so that I can retrieve package information consistently across modules.
+Feature ID: 235, Description: As a software developer, I want to analyze and map ambiguous attributes in Python code so that I can identify and manage entities with conflicting or unclear definitions across modules.
+Feature ID: 236, Description: As a software engineer, I want to analyze and process code features to generate user stories and feature descriptions, so that I can better understand and document the system's functionality.
+Feature ID: 237, Description: As a software developer, I want to analyze and visualize the dependencies between entities in my Python code so that I can understand the structure and relationships within my codebase. The system should resolve referenced attributes and represent entities and their dependencies in a structured format, including details like entity kind, location, and modifiers.
+Feature ID: 238, Description: As a developer, I want to add nodes to a node list in a dependency representation so that I can build and manage a structured dependency graph for analysis.
+Feature ID: 239, Description: As a developer, I want to add edges to a dependency representation so that I can accurately model the relationships between different components in the system.
+Feature ID: 240, Description: As a software engineer analyzing code dependencies, I want to convert dependency representations into JSON format so that I can easily visualize and analyze the structure of code dependencies.
+Feature ID: 241, Description: As a developer analyzing Python code, I want to retrieve the file path and line number of a comment host so that I can accurately locate and reference specific comments within the codebase.
+Feature ID: 242, Description: As a developer analyzing Python code, I want to retrieve the column number of a specific name within a code structure so that I can accurately locate and reference elements in the codebase.
+Feature ID: 243, Description: As a developer, I want to retrieve the file path of a hosted file or line so that I can easily access and reference the file in my codebase.
+Feature ID: 244, Description: As a developer, I want to analyze and manipulate text data within a file so that I can efficiently extract and process specific information.
+Feature ID: 245, Description: As a data analyst, I want to check if a string contains no numbers and to sparsify a weight matrix based on a threshold, so that I can preprocess data for analysis and ensure only relevant data is included.
+Feature ID: 246, Description: As a developer, I want to extract and analyze comment blocks from a Python file so that I can understand the documentation and structure of the code.
+Feature ID: 247, Description: As a software engineer, I want to generate test cases and their metadata from Python files in a directory so that I can analyze dependencies and entities for testing purposes.
+Feature ID: 248, Description: As a developer, I want to merge two dictionaries and convert dependency information into YAML format so that I can efficiently manage and transform data structures for further processing or analysis.
+Feature ID: 249, Description: As a developer, I want to convert JSON entity and dependency data into YAML format so that I can easily analyze and manipulate the data in a more readable and structured way.
+Feature ID: 250, Description: As a developer, I want to convert JSON entity lists to YAML format, so that I can easily work with the data in a more readable and structured format.
+Feature ID: 251, Description: As a developer, I want to convert JSON dependency data into YAML format and load JSON dependency data from a file so that I can process and analyze dependency information in a more readable and structured manner.
+Feature ID: 252, Description: As a software engineer, I want to convert JSON dependency files into YAML format and parse use case payloads from JSON strings, so that I can efficiently manage and analyze software dependencies and use case data.
+Feature ID: 253, Description: As a developer, I want to analyze and summarize the structure of Python code so that I can understand the relationships and statistics of nodes and edges in the code graph. This involves processing JSON files to translate their content and initializing statistics for nodes and edges to provide insights into the code structure.
+Feature ID: 254, Description: As a developer analyzing code dependencies, I want to initialize a graph structure from a JSON file containing entity and dependency data, so that I can perform statistical analysis on the codebase's structure. Additionally, I want to clean JSON text inputs by removing unnecessary formatting and extracting valid JSON content, so that I can process the data accurately without parsing errors.
+Feature ID: 255, Description: As a data analyst, I want to efficiently find the first matching element in a list based on a condition and combine weighted data from different sources, so that I can perform quick data lookups and create unified weighted representations for analysis.
+Feature ID: 256, Description: As a software engineer analyzing code differences, I want to compare nodes and edges between two graphs to identify discrepancies, so that I can understand the changes or differences between the two graph structures.
+Feature ID: 257, Description: As a software engineer analyzing code differences, I want to compare and summarize the differences between two code structures so that I can understand the changes in entities and dependencies between versions.
+Feature ID: 258, Description: As a software engineer analyzing code dependencies, I want to compare edges between two dependency graphs to determine if they represent the same relationship, so that I can accurately map and analyze dependencies across different versions or representations of the code.
+Feature ID: 259, Description: As a software developer, I want to analyze and visualize the dependencies between modules and entities in a Python codebase so that I can understand the structure and relationships within the code.
+Feature ID: 260, Description: As a software engineer analyzing code, I want to generate a call graph representation and extract function descriptions from comments so that I can understand the structure and behavior of the codebase.
+Feature ID: 261, Description: As a developer, I want to initialize and manage node dictionaries for undirected mapping so that I can efficiently access and manipulate node data during structure analysis.
+Feature ID: 262, Description: As a data analyst, I want to merge small clusters into larger, more similar clusters and sparsify the similarity matrix to retain only the most significant connections, so that I can improve the quality and interpretability of my clustering results.
+Feature ID: 263, Description: As a data scientist, I want to symmetrize a matrix and ensure its diagonal is zero, so that I can prepare the matrix for clustering algorithms that require symmetric, non-negative matrices with zero diagonals.
+Feature ID: 264, Description: As a data scientist, I want to normalize a matrix to a 0-1 range so that I can standardize the data for clustering analysis.
+Feature ID: 265, Description: As a data scientist, I want to cluster data using the Leiden algorithm with configurable parameters (gamma, seed, objective, and iterations) so that I can identify meaningful communities or partitions in my dataset based on different optimization criteria.
+Feature ID: 266, Description: As a data analyst, I want to analyze cluster statistics and densities from labeled data so that I can understand the distribution and quality of clusters in my dataset.
+Feature ID: 267, Description: As a data scientist, I want to analyze cluster density variations in my dataset so that I can understand how evenly distributed my clusters are.
+Feature ID: 268, Description: As a data scientist, I want to generate a co-association matrix from multiple clustering partitions so that I can analyze the consensus among different clustering results. As a developer, I want to automatically generate function descriptions from code using a pre-trained model so that I can quickly understand the purpose of functions without manual documentation.
+Feature ID: 269, Description: As a data scientist, I want to cluster similar functions based on their text vectors so that I can organize and analyze code functionality efficiently.
+Feature ID: 270, Description: As a data scientist, I want to calculate the pairwise mean Adjusted Rand Index (ARI) between multiple partitions of data so that I can evaluate the consistency or similarity between different clustering results.
+Feature ID: 271, Description: As a developer, I want to initialize and retrieve an OpenAI client with the correct API key and base URL so that I can interact with the OpenAI services without redundant initializations or missing configurations.
+Feature ID: 272, Description: As a developer, I want to ensure that API calls are retried with exponential backoff when rate limits or upstream errors occur, so that the system can handle temporary failures gracefully without manual intervention.
+Feature ID: 273, Description: As a developer, I want to normalize various data types (str, dict, list, or other) into a standardized multi-line string format so that I can consistently handle and display different data structures in a unified way. Additionally, I want to extract identifiers from code snippets to analyze or process them further.
+Feature ID: 274, Description: As a data engineer, I want to generate feature descriptions in parallel and export them to a CSV file so that I can efficiently process large datasets and analyze feature clusters.
+Feature ID: 275, Description: As a software engineer, I want to merge features by method clusters and generate user stories from them so that I can efficiently organize and summarize related functionalities into coherent modules.
+Feature ID: 276, Description: As a data analyst, I want to cluster files into optimal groups based on their similarities and specified parameters, so that I can organize and analyze large datasets more effectively. The system should allow me to adjust clustering parameters such as gamma range, minimum and maximum clusters, and use different clustering methods (k-NN, threshold-based, or silhouette-based) to find the best resolution for my data.
+Feature ID: 277, Description: As a developer, I want to generate descriptive summaries and flow analysis for functions in my codebase so that I can better understand their purpose, dependencies, and behavior without manually inspecting each function. The system should automatically extract comments when available or use AI to generate descriptions based on the function's code, dependencies, and context.
+Feature ID: 278, Description: As a data analyst, I want to fuse and normalize weights from two matrices (S and L) with a given parameter (a) to create a symmetric weighted adjacency matrix, so that I can build an undirected graph for further analysis.
+Feature ID: 279, Description: As a data scientist, I want to analyze and cluster data points based on their associations, so that I can identify patterns and groupings within the data.
+Feature ID: 280, Description: As a data analyst, I want to analyze cluster statistics and intra-inter cluster separation so that I can understand the quality and characteristics of my clustering results.
+Feature ID: 281, Description: As a data scientist, I want to calculate silhouette scores from similarity matrices and normalize data values so that I can evaluate clustering performance and prepare data for analysis.
+Feature ID: 282, Description: As a data analyst, I want to evaluate and pick the best clustering method for my dataset so that I can identify meaningful patterns and groupings within the data. This involves configuring clustering parameters, computing link matrices between files, and selecting the optimal clustering solution based on specified criteria like silhouette score or consensus.
+Pydantic验证失败: 1 validation error for module
+description
+  Input should be a valid string [type=string_type, input_value=[{'description': 'File an...ing Method Evaluation'}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+Module ID: 0, Description: 
+
+Features saved to C:\Users\lixutian\Desktop\FeatX\PyBackend\app\services\summary\out\features.csv
+Time taken: 2868.0056414604187 seconds
