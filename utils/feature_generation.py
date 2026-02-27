@@ -3,7 +3,7 @@ import json
 import random
 from pydantic import BaseModel, ValidationError
 from typing import Any, Dict, List
-from openai import OpenAI
+from openai import OpenAI, max_retries
 from app.services.summary.model.models import Feature, method_Cluster
 import pandas as pd
 import concurrent.futures
@@ -52,19 +52,11 @@ B) Then use the actions you identified to create User Story When creating the Us
 - The User Story's description uses this format as a guideline:
 * As a [type of user], I want to [action or goal] so that [reason or benefit].
 * For example: As a frequent traveler, I want to be able to filter hotel search results by distance from a specific landmark, so that I can find accommodations close to my desired location.
-C) The observable behavior in your code is divided into steps in the order of trigger condition → system action → data flow/state change → output/feedback, making sure that at each step you can find a function, method, API call, validation logic, or data structure in your code.
-- The user story's flow uses this format as a guideline:
-* Step 1: [Entry: route/handler/function] receives [method/path or function call] with [inputs].\n Step 2: [Validation module] checks [rules] and returns [error] on failure.\n Step 3: [Service] performs [core logic] and accesses [DB/Repo/externals]; [key computations].\n Step 4: Writes to [storage/cache/queue], records [logs/metrics].\n Step 5: Returns [status/body]; on [error conditions] returns [mapped status/messages].
-* Return flow as a single plain text string (no objects, no arrays). Use bullet lines starting with '- ' separated by newlines.
-D) Extract the "how to" constraints visible in the code into verifiable non-functional requirements, including robustness, security, performance, concurrency, observability, compatibility, and compliance. Still need to be "based on code evidence only"
-- The non-functional requirements uses this format as a guideline:
-* -Security: [auth/role checks].\n  -Validation: [input limits/schema].\n  -Performance: [pagination/index/cache/limits/timeout].\n  -Reliability: [transactions/retries/rollback].\n  -Concurrency: [locks/unique keys/idempotency].\n  -Observability: [structured logs/metrics/tracing].\n  -Compatibility: [API version/content-type].
-* Return notf as a single plain text string (no objects, no arrays). Use bullet lines starting with '- ' separated by newlines.
+C) Keep the summary concise, and try to keep each summary within 60 words while being complete, and never exceed 120 words
+
 Please return the response in the following JSON format:
 {{
-"description": "User Story description",
-"flow": "User Story events",
-"notf":"Non-functional requirements"
+"description": "User Story description"
 }}
 """
 
@@ -82,9 +74,11 @@ use the following steps to summary:
 - Merge features with same/core-related objects into one macro-features;
 - The generated macro-features cannot already be present in the current system macro-features list;
 - example: "User adds comment" and "User edits comment" can be merged into "comments management"
+- Please use less than 10 words
+- Please format the description in Title Case, i.e., capitalize the first letter of meaningful words, and keep conjunctions and prepositions unchanged.
 Please return the response in the following JSON format:
 {{
-"description": "macro-feature description"
+"description": "Macro-Feature Description"
 }}
 """
 
@@ -190,27 +184,47 @@ def process_feature(feature, modelname):
                 "function code:" + str(function.func_code) + "\n"
             )
         prompt = userstory_prompt.format(code_content=code)
-        try:
-            response = call_with_retry(lambda: get_client().chat.completions.create(
-                messages=[{"role": "user", "content": prompt}],
-                model=modelname,
-                response_format={"type": "json_object"},
-                temperature=0.3,
-                top_p=0.95,
-                frequency_penalty=0.5,
-                presence_penalty=0.2
-            ))
-            json_str = response.choices[0].message.content or ""
-            data = parse_usecase_payload(json_str)
-            result = usecase.model_validate(data)
-            feature.feature_desc = result.description
-            # feature.feature_flow = result.flow
-            # feature.feature_notf = result.notf
-        except Exception as e:
-            print(f"Feature ID: {feature.feature_id} 错误: {e}")
-    print(f"Feature ID: {feature.feature_id}, Description: {feature.feature_desc}")
+
+        current_prompt = prompt
+        attempts = 0
+        last_error = ""
+        max_retries = 5
+
+        while attempts < max_retries:
+            try:
+                # 如果不是第一次尝试，在 prompt 后面附上错误反馈
+                if attempts > 0:
+                    current_prompt = f"{prompt}\n\nNote: The previous attempt failed, with the following error: {last_error}. Please ensure the output strictly conforms to JSON format."
+
+                response = call_with_retry(lambda: get_client().chat.completions.create(
+                    messages=[{"role": "user", "content": current_prompt}],
+                    model=modelname,
+                    response_format={"type": "json_object"},
+                    temperature=0.3,
+                    top_p=0.95,
+                    frequency_penalty=0.5,
+                    presence_penalty=0.2
+                ))
+                json_str = response.choices[0].message.content or ""
+                data = parse_usecase_payload(json_str)
+                result = usecase.model_validate(data)
+                feature.feature_desc = result.description
+                # feature.feature_flow = result.flow
+                # feature.feature_notf = result.notf
+                print(f"Feature ID: {feature.feature_id}, Description: {feature.feature_desc}")
+                break
+            except (json.JSONDecodeError, ValidationError, Exception) as e:
+                attempts += 1
+                last_error = str(e)
+                print(f"第 {attempts} 次尝试失败: {last_error}")
+                if attempts >= max_retries:
+                    print("已达到最大重试次数，放弃该任务。")
+                    break
+
 
 def generate_feature_description_parallel(feature_list, modelname:str, max_workers=8):
+    for feature in feature_list:
+        feature.feature_desc = ""
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [executor.submit(process_feature, feature, modelname) for feature in feature_list]
         concurrent.futures.wait(futures)
@@ -227,29 +241,42 @@ def generate_feature_description(feature_list: List[Feature], modelname: str):
                 # 使用代码原文生成feature
                 code += f"function name:{function.func_fullName}\nfunction code:{function.func_code}\n"
             prompt = userstory_prompt.format(code_content=code)
-            try:
-                response = call_with_retry(lambda: get_client().chat.completions.create(
-                    messages=[{"role": "user", "content": prompt}],
-                    model=modelname,
-                    response_format={"type": "json_object"},
-                    temperature=0.3,
-                    top_p=0.95,
-                    frequency_penalty=0.5,
-                    presence_penalty=0.2
-                ))
-                json_str = response.choices[0].message.content or ""
-                data = parse_usecase_payload(json_str)
-                result = usecase.model_validate(data)
-                feature.feature_desc = result.description
-                feature.feature_flow = result.flow
-                feature.feature_notf = result.notf
-            except json.JSONDecodeError as e:
-                print(f"JSON解析失败: {e}\nRaw: {json_str}")
-            except ValidationError as e:
-                print(f"Pydantic验证失败: {e}\nRaw: {json_str}\nParsed: {data}")
-            except Exception as e:
-                print(f"其他错误: {e}")
-            print(f"Feature ID: {feature.feature_id}, Description: {feature.feature_desc}")
+
+            current_prompt = prompt
+            attempts = 0
+            last_error = ""
+            max_retries = 5
+
+            while attempts < max_retries:
+                try:
+                    # 如果不是第一次尝试，在 prompt 后面附上错误反馈
+                    if attempts > 0:
+                        current_prompt = f"{prompt}\n\nNote: The previous attempt failed, with the following error: {last_error}. Please ensure the output strictly conforms to JSON format."
+
+                    response = call_with_retry(lambda: get_client().chat.completions.create(
+                        messages=[{"role": "user", "content": current_prompt}],
+                        model=modelname,
+                        response_format={"type": "json_object"},
+                        temperature=0.3,
+                        top_p=0.95,
+                        frequency_penalty=0.5,
+                        presence_penalty=0.2
+                    ))
+                    json_str = response.choices[0].message.content or ""
+                    data = parse_usecase_payload(json_str)
+                    result = usecase.model_validate(data)
+                    feature.feature_desc = result.description
+                    # feature.feature_flow = result.flow
+                    # feature.feature_notf = result.notf
+                    print(f"Feature ID: {feature.feature_id}, Description: {feature.feature_desc}")
+                    break
+                except (json.JSONDecodeError, ValidationError, Exception) as e:
+                    attempts += 1
+                    last_error = str(e)
+                    print(f"第 {attempts} 次尝试失败: {last_error}")
+                    if attempts >= max_retries:
+                        print("已达到最大重试次数，放弃该任务。")
+                        break
 
 def merge_features_by_method_cluster(features: List[Feature], method_clusters: List[method_Cluster], modelname: str):
     merged_features_des = []
@@ -265,31 +292,45 @@ def merge_features_by_method_cluster(features: List[Feature], method_clusters: L
             feature_list=feature_list,
             module_list=module_list
         )
-        try:
-            response = call_with_retry(lambda: get_client().chat.completions.create(
-                messages=[{"role": "user", "content": prompt}],
-                model=modelname,
-                response_format={"type": "json_object"},
-                temperature=0.3,
-                top_p=0.95,
-                frequency_penalty=0.5,
-                presence_penalty=0.2
-            ))
-            json_str = response.choices[0].message.content
-            json_str = json_str.replace("```json", "").replace("```", "")
-            result_dict = json.loads(json_str)
-            if "description" not in result_dict and isinstance(result_dict, dict):
-                result_dict = {"description": next(iter(result_dict.values()))}
-            result = module.model_validate(result_dict)
-            merged_features_des.append(result.description)
-            method_cluster.cluster_desc = result.description
-        except json.JSONDecodeError as e:
-            print(f"JSON解析失败: {e}")
-        except ValidationError as e:
-            print(f"Pydantic验证失败: {e}")
-        except Exception as e:
-            print(f"其他错误: {e}")
-        print(f"Module ID: {method_cluster.cluster_id}, Description: {method_cluster.cluster_desc}\n")
+
+        current_prompt = prompt
+        attempts = 0
+        last_error = ""
+        max_retries = 20
+
+        while attempts < max_retries:
+            try:
+                # 如果不是第一次尝试，在 prompt 后面附上错误反馈
+                if attempts > 0:
+                    current_prompt = f"{prompt}\n\nNote: The previous attempt failed, with the following error: {last_error}. Please ensure the output strictly conforms to JSON format."
+
+                response = call_with_retry(lambda: get_client().chat.completions.create(
+                    messages=[{"role": "user", "content": current_prompt}],
+                    model=modelname,
+                    response_format={"type": "json_object"},
+                    temperature=0.3,
+                    top_p=0.95,
+                    frequency_penalty=0.5,
+                    presence_penalty=0.2
+                ))
+                json_str = response.choices[0].message.content
+                json_str = json_str.replace("```json", "").replace("```", "")
+                result_dict = json.loads(json_str)
+                if "description" not in result_dict and isinstance(result_dict, dict):
+                    result_dict = {"description": next(iter(result_dict.values()))}
+                result = module.model_validate(result_dict)
+                merged_features_des.append(result.description)
+                method_cluster.cluster_desc = result.description
+                print(f"Module ID: {method_cluster.cluster_id}, Description: {method_cluster.cluster_desc}\n")
+                break
+            except (json.JSONDecodeError, ValidationError, Exception) as e:
+                attempts += 1
+                last_error = str(e)
+                print(f"第 {attempts} 次尝试失败: {last_error}")
+                if attempts >= max_retries:
+                    print("已达到最大重试次数，放弃该任务。")
+                    break
+
 
 def features_to_csv(features: List[Feature], method_clusters: List[method_Cluster], filename: str):
     rows = []
@@ -302,8 +343,8 @@ def features_to_csv(features: List[Feature], method_clusters: List[method_Cluste
                 "module_desc": method_cluster.cluster_desc if method_cluster else "",
                 "desc": feature.feature_desc,
                 "method_name": function.func_fullName,
-                "flow": feature.feature_flow,
-                "notf": feature.feature_notf,
+                # "flow": feature.feature_flow,
+                # "notf": feature.feature_notf,
             })
     df = pd.DataFrame(rows)
     df.to_csv(filename, index=False)

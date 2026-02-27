@@ -426,19 +426,19 @@ def generate_csv_files(dep_repr: DepRepr, package_db = None, project_root: Path 
             node_id_to_index[node.id] = len(func_nodes) - 1
     
     # 生成 files.csv到output_dir目录下
-    # with open(output_dir / "files.csv", "w", newline="", encoding="utf-8") as f:
-    #     writer = csv.writer(f)
-    #     writer.writerow(["id", "file_path", "longname", "start_line", "end_line", "start_col", "end_col"])
-    #     for idx, node in enumerate(file_nodes):
-    #         writer.writerow([
-    #             idx,  # 使用索引从0开始
-    #             node.file_path,
-    #             node.longname,
-    #             node.start_line,
-    #             node.end_line,
-    #             node.start_col,
-    #             node.end_col
-    #         ])
+    with open(output_dir / "files.csv", "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["id", "file_path", "longname", "start_line", "end_line", "start_col", "end_col"])
+        for idx, node in enumerate(file_nodes):
+            writer.writerow([
+                idx,  # 使用索引从0开始
+                node.file_path,
+                node.longname,
+                node.start_line,
+                node.end_line,
+                node.start_col,
+                node.end_col
+            ])
     
     # 生成 methods.csv
     with open(output_dir / "methods.csv", "w", newline="", encoding="utf-8") as f:

@@ -316,7 +316,7 @@ def method_summary(output_dir: str, strategy: str, language:str="python") -> Lis
     functions = []
 
     for index, row in method_df.iterrows():
-        function_fullName = row["method_signature"]
+        function_fullName = row["method_signature"].split(".",1)[1]
         function_name = function_fullName.split("(")[0].split(".")[-1]
         # 提取类/模块名（可能是最后第二段或最后一段）
         parts = function_fullName.split("(")[0].split(".")

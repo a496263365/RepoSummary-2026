@@ -83,7 +83,7 @@ def summary_main(project_root: str, output_dir: str):
         files,
         a=0.5,
         n_points=25,
-        gamma_min=0.01, gamma_max=0.4,
+        gamma_min=0.05, gamma_max=0.6,
         seeds_per_gamma=8,
         use_knn=True, knn_k=20,
         use_threshold=False, threshold_tau=0.0,
@@ -115,26 +115,26 @@ def summary_main(project_root: str, output_dir: str):
     feature_list, summary = cluster_all_functions_to_features(
         method_clusters,
         weight_parameter=0.25,
-        gamma_min=0.05, gamma_max=0.5, n_points=24, 
+        gamma_min=0.05, gamma_max=0.2, n_points=24,
         seeds_per_gamma=8, # 每个gamma
         use_knn=True, knn_k=20, # 使用KNN稀疏化，指保留每个节点与其最近的k个节点的边
         use_threshold=False, threshold_tau=0.0, # 使用阈值稀疏化，指保留边权重大于阈值的边
-        min_clusters=2, max_clusters_ratio=0.4, # 最小簇数和最大簇数比例
+        min_clusters=5, max_clusters_ratio=0.2, # 最小簇数和最大簇数比例
         use_silhouette=False, silhouette_sample_size=None, # 使用轮廓系数评估簇的分离度
         objective="CPM", # 目标函数，CPM表示聚类质量最大化
-        consensus_tau=0.6, consensus_gamma=0.1, # 共识算法参数
+        consensus_tau=0.4, consensus_gamma=0.1, # 共识算法参数
         rng_seed=2025, # 随机种子
         target_total_features=None, # 目标总特征数
     )
     print(f"Total Features: {len(feature_list)}")
     for f in feature_list:
-        print(f"Feature ID {f.feature_id}: {f.cluster_id} {set(x.func_file for x in f.feature_func_list)}")
-        #print(f"Feature ID {f.feature_id}: {[function.func_fullName for function in f.feature_func_list]}")
+        # print(f"Feature ID {f.feature_id}: {f.cluster_id} {set(x.func_file for x in f.feature_func_list)}")
+        print(f"Feature ID {f.feature_id}: {[function.func_fullName for function in f.feature_func_list]}")
     
     modelname = os.getenv("LLM2_API_MODEL")
     # 生成特征描述
     if is_parallel:
-        generate_feature_description_parallel(feature_list, modelname=modelname, max_workers=8)
+        generate_feature_description_parallel(feature_list, modelname=modelname, max_workers=32)
     else:
         generate_feature_description(feature_list, modelname=modelname)
 
@@ -148,11 +148,9 @@ def summary_main(project_root: str, output_dir: str):
 
 if __name__ == "__main__":
     here = os.path.dirname(os.path.abspath(__file__))
-    # project_root = "E:\\LoTM_Repos\\23\\original"
-    project_root = "C:\\Users\\lixutian\\Desktop\\FeatX\\PyBackend\\app\\services\\summary"
-    output_dir = os.path.join(here, "out")
-    
-    # 创建日志文件路径
+    project_id=70
+    project_root = f"E:\\LoTM_Repos\\{project_id}\\original"
+    output_dir = os.path.join(here, "out", str(project_id))
     log_file = os.path.join(output_dir, "output_log.txt")
     os.makedirs(output_dir, exist_ok=True)
     
