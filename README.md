@@ -100,7 +100,7 @@ project_root = "https://github.com/username/repo.git"
 
 ```bash
 cd src
-python main.py
+python reposummary.py
 ```
 
 注意：需要修改 `main.py` 中的 `project_root` 和 `output_dir` 参数。
