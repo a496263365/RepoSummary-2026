@@ -433,7 +433,7 @@ def generate_csv_files(dep_repr: DepRepr, package_db = None, project_root: Path 
             writer.writerow([
                 idx,  # 使用索引从0开始
                 node.file_path,
-                node.longname,
+                node.longname.split('.',1)[1],
                 node.start_line,
                 node.end_line,
                 node.start_col,

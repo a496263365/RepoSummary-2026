@@ -15,7 +15,7 @@ from typing import List
 from pydantic import BaseModel, ValidationError
 from openai import OpenAI
 from transformers import RobertaTokenizer, T5ForConditionalGeneration
-
+import concurrent.futures
 from app.services.summary.model.models import Function
 from app.services.summary.utils.function_clustering import set_func_adj_matrix
 
@@ -28,16 +28,17 @@ load_dotenv()
 # 延迟初始化客户端，避免在导入时立即报错
 client = None
 
+
 def get_client():
     """获取OpenAI客户端，如果未初始化则初始化"""
     global client
     if client is None:
-        api_key = os.getenv("LLM2_API_KEY")
-        base_url = os.getenv("LLM2_API_URL")
+        api_key = os.getenv("LLM3_API_KEY")
+        base_url = os.getenv("LLM3_API_URL")
         if not api_key:
             raise ValueError(
-                "LLM2_API_KEY 环境变量未设置。"
-                "请创建 .env 文件并设置 LLM2_API_KEY 和 LLM2_API_URL，"
+                "LLM3_API_KEY 环境变量未设置。"
+                "请创建 .env 文件并设置 LLM3_API_KEY 和 LLM3_API_URL，"
                 "或者设置环境变量。"
             )
         client = OpenAI(
@@ -45,6 +46,7 @@ def get_client():
             base_url=base_url
         )
     return client
+
 
 # 生成总结函数的提示词
 Func_summary_template = """\nYou are a software engineer who is reverse engineering the code in a system to extract its design requirements and functional descriptions. 
@@ -62,24 +64,25 @@ B. Function functionality destructuring
 - If you can figure out the action object of the function, specify it; if you can't, leave it out
 # Task:
 -Give a description of the function based on the AB step, and extrapolate the functional requirements from the code implementation
--Non-functional requirements identification: infer non-functional requirements such as performance and security as reflected by code constraints
 -Answer exactly as the code says. Don't introduce extra information
 -Use the following format to answer:
 Please return the response in the following JSON format:
 {{
     "func_desc": "Function description",
     "func_flow": "Function flow",
-    "func_notf": "Non-functional requirements",
 }}
 """
+
+
 class func_response(BaseModel):
     func_desc: str
     func_flow: str
-    func_notf: str
+
     class Config:
         extra = "forbid"  # 严格禁止额外字段
 
-def extract_comments_from_code(code: str, language: str="python") -> str:
+
+def extract_comments_from_code(code: str, language: str = "python") -> str:
     """
     从代码中提取注释
     支持Python和Java的常见注释格式
@@ -100,13 +103,13 @@ def extract_comments_from_code(code: str, language: str="python") -> str:
             code = str(code)
         except Exception:
             return ""
-    
+
     # 如果转换后是空字符串或只包含空白字符
     if not code or not code.strip():
         return ""
-    
+
     comments = []
-    
+
     if language == "python":
         # 1. 提取Python docstring（使用ast）
         try:
@@ -119,7 +122,7 @@ def extract_comments_from_code(code: str, language: str="python") -> str:
         except (SyntaxError, ValueError):
             # 如果代码不完整无法解析，继续使用其他方法
             pass
-        
+
         # 2. 提取Python单行注释 (# comment)
         try:
             tokens = tokenize.generate_tokens(StringIO(code).readline)
@@ -136,7 +139,7 @@ def extract_comments_from_code(code: str, language: str="python") -> str:
                 comment = comment.strip()
                 if comment and comment not in comments:
                     comments.append(comment)
-                
+
     elif language == "java":
         # 1. 提取JavaDoc注释 /** ... */
         javadoc_comments = re.findall(r'/\*\*\s*(.+?)\s*\*/', code, re.DOTALL)
@@ -150,7 +153,7 @@ def extract_comments_from_code(code: str, language: str="python") -> str:
             cleaned_comment = '.'.join(lines).strip()
             if cleaned_comment and cleaned_comment not in comments:
                 comments.append(cleaned_comment)
-        
+
         # 2. 提取多行注释 /* ... */
         multiline_comments = re.findall(r'/\*\s*(.+?)\s*\*/', code, re.DOTALL)
         for comment in multiline_comments:
@@ -163,14 +166,14 @@ def extract_comments_from_code(code: str, language: str="python") -> str:
             cleaned_comment = '.'.join(lines).strip()
             if cleaned_comment and cleaned_comment not in comments:
                 comments.append(cleaned_comment)
-        
+
         # 3. 提取单行注释 // comment
         java_single_comments = re.findall(r'//\s*(.+?)(?=\n|$)', code)
         for comment in java_single_comments:
             comment = comment.strip()
             if comment and comment not in comments:
                 comments.append(comment)
-    
+
     # 合并所有注释为字符串
     if comments:
         return '.'.join(comments)
@@ -178,8 +181,7 @@ def extract_comments_from_code(code: str, language: str="python") -> str:
         return ""
 
 
-
-def generate_function_description_by_comment(functions: List[Function], language:str="python") -> List[Function]:
+def generate_function_description_by_comment(functions: List[Function], language: str = "python") -> List[Function]:
     """
     从函数代码中提取注释作为函数描述
     
@@ -196,62 +198,84 @@ def generate_function_description_by_comment(functions: List[Function], language
     return functions
 
 
-def generate_function_descriptions(functions:List[Function], modelname:str="deepseek-v3", method_adj_matrix: np.ndarray=None, language:str="python") -> List[Function]:
-    
-    for function in functions:
-        function.func_desc = extract_comments_from_code(function.func_code, language=language)
-        if function.func_desc != "":
+def generate_function_description(function: Function, functions: List[Function], modelname: str = "deepseek-v3",
+                                  method_adj_matrix: np.ndarray = None, language: str = "python") -> Function:
+    function.func_desc = extract_comments_from_code(function.func_code, language=language)
+    if function.func_desc != "":
+        return
+    row = method_adj_matrix[function.func_id]
+    dependence_parts = []
+    for j in np.nonzero(row)[0]:
+        if j == function.func_id:
             continue
-        row = method_adj_matrix[function.func_id]
-        dependence_parts = []
-        for j in np.nonzero(row)[0]:
-            if j == function.func_id:
-                continue
-            dependence_parts.append(
-                functions[j].func_fullName + "\n" + functions[j].func_code + "\n"
-            )
-        dependence = "".join(dependence_parts)
-        prompt = Func_summary_template.format(
-            code=function.func_code,
-            folder_structure=function.func_fullName,
-            dependence=dependence
+        dependence_parts.append(
+            functions[j].func_fullName + "\n" + functions[j].func_code + "\n"
         )
+    dependence = "".join(dependence_parts)
+    prompt = Func_summary_template.format(
+        code=function.func_code,
+        folder_structure=function.func_fullName,
+        dependence=dependence
+    )
+
+    current_prompt = prompt
+    attempts = 0
+    last_error = ""
+    max_retries = 5
+
+    while attempts < max_retries:
         try:
+            # 如果不是第一次尝试，在 prompt 后面附上错误反馈
+            if attempts > 0:
+                current_prompt = f"{prompt}\n\nNote: The previous attempt failed, with the following error: {last_error}. Please ensure the output strictly conforms to JSON format."
+
             response = call_with_retry(lambda: get_client().chat.completions.create(
-                messages=[{"role": "user", "content": prompt}],
+                messages=[{"role": "user", "content": current_prompt}],
                 model=modelname,
                 response_format={"type": "json_object"},
-                temperature=0.3, 
-                top_p=0.95, 
-                frequency_penalty=0.5, 
-                presence_penalty=0.2 
+                temperature=0.3,
+                top_p=0.95,
+                frequency_penalty=0.5,
+                presence_penalty=0.2
             ))
             json_str = response.choices[0].message.content
             json_str = json_str.replace("```json", "").replace("```", "")
-            result = func_response.model_validate(json.loads(json_str)) 
+            result = func_response.model_validate(json.loads(json_str))
             function.func_desc = result.func_desc
             function.func_flow = result.func_flow
-            function.func_notf = result.func_notf
-        except json.JSONDecodeError as e:
-            print(f"JSON解析失败: {e}")
-            function.func_desc = function.func_name.split(".")[-1]
-            function.func_flow = function.func_code
-            function.func_notf = ""
-        except ValidationError as e:
-            print(f"Pydantic验证失败: {e}")
-            function.func_desc = function.func_name.split(".")[-1]
-            function.func_flow = function.func_code
-            function.func_notf = ""
-        except Exception as e:
-            print(f"其他错误: {e}")
-            function.func_desc = function.func_name.split(".")[-1]
-            function.func_flow = function.func_code
-            function.func_notf = ""
-        # 打印函数描述
-        print(f"Function ID: {function.func_id}, Name: {function.func_name}")
-        print(f"Description: {function.func_desc}")
-        print(f"Flow: {function.func_flow}")
-        print(f"Non-functional requirements: {function.func_notf}")
+            # 打印函数描述
+            print(f"Function ID: {function.func_id}, Name: {function.func_name}")
+            print(f"Description: {function.func_desc}")
+            break
+        except (json.JSONDecodeError, ValidationError, Exception) as e:
+            attempts += 1
+            last_error = str(e)
+            print(f"第 {attempts} 次尝试失败: {last_error}")
+            if attempts >= max_retries:
+                print("已达到最大重试次数，放弃该任务。")
+                function.func_desc = function.func_name.split(".")[-1]
+                function.func_flow = function.func_code
+                function.func_notf = ""
+                break
+
+
+def generate_function_descriptions(functions: List[Function], modelname: str = "deepseek-v3",
+                                   method_adj_matrix: np.ndarray = None) -> List[Function]:
+    for function in functions:
+        generate_function_description(function, functions, modelname, method_adj_matrix)
+
+    return functions
+
+
+def generate_function_descriptions_parallel(functions: List[Function], modelname: str = "deepseek-v3",
+                                            method_adj_matrix: np.ndarray = None, max_workers=8) -> List[Function]:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = [executor.submit(generate_function_description, function, functions, modelname, method_adj_matrix) for
+                   function in functions]
+        concurrent.futures.wait(futures)
+
+    return functions
+
 
 def call_with_retry(fn, retries=5, base_delay=0.5, max_delay=8.0):
     for i in range(retries):
@@ -265,19 +289,21 @@ def call_with_retry(fn, retries=5, base_delay=0.5, max_delay=8.0):
             time.sleep(delay)
     return fn()
 
+
 def function_name_summary(functions: List[Function]) -> List[Function]:
     for function in functions:
         # 不应该使用函数全名，应该使用文件名+函数名+参数名
-        params = '('+function.func_fullName.split("(")[-1]
+        params = '(' + function.func_fullName.split("(")[-1]
         method_name = function.func_fullName.split("(")[0].split(".")[-1]
         file_name = function.func_fullName.split("(")[0].split(".")[-2]
         function.func_desc = f"{file_name}.{method_name}{params}"
     return functions
 
-def code_t5_summary(functions: List[Function], language:str="python") -> List[Function]:
+
+def code_t5_summary(functions: List[Function], language: str = "python") -> List[Function]:
     tokenizer = RobertaTokenizer.from_pretrained('Salesforce/codet5-base-multi-sum')
     model = T5ForConditionalGeneration.from_pretrained('Salesforce/codet5-base-multi-sum')
-    
+
     for function in functions:
         function.func_desc = extract_comments_from_code(function.func_code, language=language)
         if function.func_desc != "":
@@ -298,11 +324,11 @@ def code_t5_summary(functions: List[Function], language:str="python") -> List[Fu
         # 先检查原始文本长度（不添加special tokens，更准确）
         temp_encoded = tokenizer(text, add_special_tokens=False)
         original_length = len(temp_encoded['input_ids'])
-        
+
         # 使用truncation参数自动截断超长文本
         encoded = tokenizer(text, return_tensors="pt", truncation=True, max_length=max_length)
         input_ids = encoded.input_ids
-        
+
         # 如果原始文本被截断，给出警告
         if original_length > max_length:
             print(f"警告: 函数 {function.func_name} 的代码过长 ({original_length} tokens)，已截断至 {max_length} tokens")
@@ -311,24 +337,25 @@ def code_t5_summary(functions: List[Function], language:str="python") -> List[Fu
         function.func_desc = tokenizer.decode(generated_ids[0], skip_special_tokens=True)
     return functions
 
-def method_summary(output_dir: str, strategy: str, language:str="python") -> List[Function]:
+
+def method_summary(output_dir: str, strategy: str, language: str = "python") -> List[Function]:
     method_df = pd.read_csv(os.path.join(output_dir, "methods.csv"))
     functions = []
 
     for index, row in method_df.iterrows():
-        function_fullName = row["method_signature"].split(".",1)[1]
+        function_fullName = row["method_signature"].split(".", 1)[1]
         function_name = function_fullName.split("(")[0].split(".")[-1]
         # 提取类/模块名（可能是最后第二段或最后一段）
         parts = function_fullName.split("(")[0].split(".")
         func_file = parts[-2] if len(parts) >= 2 else parts[-1]
-        
+
         # 确保method_code是字符串类型
         method_code = row["method_code"]
         if pd.isna(method_code):
             method_code = ""
         elif not isinstance(method_code, str):
             method_code = str(method_code)
-        
+
         function = Function(
             func_id=row["ID"],
             func_name=function_name,
@@ -349,7 +376,7 @@ def method_summary(output_dir: str, strategy: str, language:str="python") -> Lis
         # 转换为整数类型，处理可能的 NaN 或字符串
         func_adj_matrix_df = func_adj_matrix_df.fillna(0).astype(int)
         func_adj_matrix = func_adj_matrix_df.to_numpy()
-        
+
         # 验证矩阵大小是否与函数数量匹配
         expected_size = len(functions)
         if func_adj_matrix.shape[0] != expected_size or func_adj_matrix.shape[1] != expected_size:
@@ -362,7 +389,7 @@ def method_summary(output_dir: str, strategy: str, language:str="python") -> Lis
                 new_matrix = np.zeros((expected_size, expected_size), dtype=int)
                 new_matrix[:func_adj_matrix.shape[0], :func_adj_matrix.shape[1]] = func_adj_matrix
                 func_adj_matrix = new_matrix
-        
+
         set_func_adj_matrix(func_adj_matrix)
     except Exception as e:
         print(f"警告: 加载 method_adj_matrix.csv 失败: {e}")
@@ -380,13 +407,17 @@ def method_summary(output_dir: str, strategy: str, language:str="python") -> Lis
                 continue
             else:
                 function.func_desc = function.func_name
-    
+
     if strategy == "function_name":
         functions = function_name_summary(functions)
     elif strategy == "code_t5":
         functions = code_t5_summary(functions, language=language)
     elif strategy == "llm":
-        functions = generate_function_descriptions(functions, modelname=os.getenv("LLM2_API_MODEL"), method_adj_matrix=func_adj_matrix, language=language)
+        functions = generate_function_descriptions(functions, modelname=os.getenv("LLM3_API_MODEL"),
+                                                   method_adj_matrix=func_adj_matrix)
+    elif strategy == "llm_parallel":
+        functions = generate_function_descriptions_parallel(functions, modelname=os.getenv("LLM3_API_MODEL"),
+                                                            method_adj_matrix=func_adj_matrix, max_workers=32)
     else:
         raise ValueError(f"Invalid strategy: {strategy}")
 
